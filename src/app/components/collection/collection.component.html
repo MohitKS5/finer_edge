@@ -2,7 +2,7 @@
   <div fxLayout="row">
     <div fxLayout="column" fxLayoutAlign="top start" *ngFor="let item of collections" class="item">
       <div class="head">The {{item.head}}</div>
-      <div class="img">
+      <div class="img" ngsReveal>
         <img [src]="'/assets/images'+item.pic+'.jpg'">
       </div>
       <div class="cont">

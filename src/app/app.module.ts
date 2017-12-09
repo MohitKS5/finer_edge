@@ -16,6 +16,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import {NgsRevealModule} from 'ng-scrollreveal';
 import { CollectionComponent } from './components/collection/collection.component';
+import { PreloaderComponent } from './components/preloader/preloader.component';
+import { SocLinksComponent } from './components/soc-links/soc-links.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { CollectionComponent } from './components/collection/collection.componen
     ServicesComponent,
     ContactComponent,
     ProjectsComponent,
-    CollectionComponent
+    CollectionComponent,
+    PreloaderComponent,
+    SocLinksComponent
   ],
   imports: [
     BrowserModule,

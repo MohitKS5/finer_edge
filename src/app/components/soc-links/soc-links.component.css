@@ -1,0 +1,21 @@
+.socs{
+  font-size: 2rem;
+}
+
+i{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 1px black;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+  margin: 0 10px;
+  border: 1px solid #eee;
+}
+
+i:hover{
+  background-color: black;
+  transform: rotateZ(360deg);
+}

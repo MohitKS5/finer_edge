@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "/assets/font/font-awesome/css/font-awesome.min.css";
 @font-face {
   font-family: proxima;
   src: url("/assets/font/proxim.ttf");

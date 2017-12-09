@@ -25,3 +25,9 @@ img{
   cursor: pointer;
   color: #666;
 }
+
+.pos{
+  position: absolute;
+  right: 70px;
+  top: 3vh;
+}
