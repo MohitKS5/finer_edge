@@ -1,0 +1,5 @@
+<ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig">
+  <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <img src="{{ slide }}" alt="" height="100%">
+  </div>
+</ngx-slick>

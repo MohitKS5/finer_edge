@@ -1,0 +1,58 @@
+.collection {
+  padding: 10vh 0;
+  font-family: proxima;
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.img {
+  width: 20vw;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  filter: brightness(120%) sepia(30%);
+  filter: brightness(120%) sepia(30%);
+}
+
+.item {
+  width: 20vw;
+  margin: 1vw;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.head {
+  margin-bottom: 4.2vh;
+}
+
+.btns{
+  background-color: white;
+  border: 3px solid #000;
+  border-radius: 4px;
+  font-family: proxima;
+  transition: all 0.2s ease-in;
+  font-size: .7rem;
+  padding: 1rem 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.btns:hover{
+  background-color: black;
+  color: #eeeeee;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.cont{
+  font-size: 1rem;
+  font-weight: 100;
+  color: #777;
+  line-height: 1.25rem;
+  padding: 4vh 0;
+  letter-spacing: 1.8px;
+}

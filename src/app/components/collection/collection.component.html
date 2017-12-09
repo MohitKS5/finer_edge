@@ -1,0 +1,14 @@
+<section class="collection">
+  <div fxLayout="row">
+    <div fxLayout="column" fxLayoutAlign="top start" *ngFor="let item of collections" class="item">
+      <div class="head">The {{item.head}}</div>
+      <div class="img">
+        <img [src]="'/assets/images'+item.pic+'.jpg'">
+      </div>
+      <div class="cont">
+        {{item.cont}}
+      </div>
+      <span class="btns" [routerLink]="item.head.toLowerCase()">More {{item.head}}</span>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+.nav{
+  height: 10vh;
+  background-color: white;
+}
+.logo{
+  padding: 2vh 4vw;
+  height: 6vh;
+  margin-left: 10vw;
+}
+
+img{
+  height: 100%;
+}
+
+.menu-item{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  padding: .3vw;
+  color: #999;
+  font-family: proxima;
+}
+
+.menu-item:hover{
+  cursor: pointer;
+  color: #666;
+}
