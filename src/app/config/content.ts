@@ -92,3 +92,23 @@ At FINER EDGE, our designs do more than provide our Client's with a beautiful wo
   possible within pre-defined budgets and without compromise to the clients' business or project objectives.
 `
 }];
+
+export const contact = {
+  address: `A-402, JAY VIJAY COMPLEX<br>
+  Opp Hindi High School,
+  Laxminarayan Mandir Road,
+  Ghatkopar (w), Mumbai - 400 086
+  Maharashtra, INDIA.
+
+  Tel	:	+ 91-22-25132666
+
+  Fax	:	+ 91-22-25134333
+
+  E-mail	: vivek@fineredge.net`,
+  info: `
+  ## Tell us what you think!
+
+  We are constantly working to raise the bar on our services. 
+  If you have any questions or concerns about your experience,
+  please let us know.`
+};

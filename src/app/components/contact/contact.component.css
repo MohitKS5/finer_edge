@@ -1,0 +1,74 @@
+.banner{
+  background: black url("/assets/images/awards/TEAM.JPG");
+  background-position: center;
+  filter: brightness(120%) sepia(60%) contrast(120%);
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
+  font-size: 5rem;
+  font-weight: 900;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+input{
+  background-color: rgb(250,250,250);
+  border-radius: 4px;
+  width: 30vw;
+  height: 2rem;
+  box-shadow: none;
+  border: 1px solid #ddd;
+  margin-bottom: 4vh;
+}
+
+.forms span{
+  padding: 5px;
+}
+
+.submit{
+  margin-top: 50px;
+  width: 10vw;
+  min-width: 100px;
+  border: 2px solid black;
+  color: #666;
+  border-radius: 1px;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: white;
+  height: 3rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.submit:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.content{
+  margin: 10vh 15vw;
+}
+
+.contact, .info{
+  width: 15vw;
+}
+
+.textarea{
+  height: 100px;
+}
+
+.findus{
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #666;
+}
+
+.address {
+  letter-spacing: 1.5px;
+  color: #888;
+}
+
+.info{
+  color: #999999;
+  letter-spacing: 1.4px;
+}
