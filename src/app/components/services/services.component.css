@@ -1,0 +1,71 @@
+.main_content{
+  font-family: proxima;
+  font-size: 1.5rem;
+  padding-top: 10vh;
+  color: white;
+  background: transparent;
+  z-index: 1;
+}
+
+.backg{
+  z-index: -1;
+  background: url("/assets/images/slides/13.moti interior.jpg") no-repeat;
+  filter: grayscale(50%) brightness(30%);
+  background-size: cover;
+  position: fixed;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+
+}
+
+.blocks{
+  width: 15vw;
+  min-height: 25vh;
+  border: 1px solid #ccc;
+  margin: 1vw;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 100;
+  color: black;
+  letter-spacing: 1.5px;
+  padding: 20px;
+}
+
+.blockset{
+  padding: 10vh 0;
+  background-color: white;
+}
+
+i{
+  font-size: 2rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  border:  1px solid #000;
+  width: 5rem;
+  height: 5rem;
+}
+
+.blocks:hover i{
+  background-color: orange;
+  color: white;
+  font-weight: 900;
+  border: none;
+}
+
+.margin{
+  margin: 0 15vw;
+}
+
+.contens{
+  padding: 5vh 15vw;
+  background: transparent;
+}
+
+.blockhead{
+  font-family: badoniit;
+  color: #555;
+  font-size: 2rem;
+  font-weight: 900;
+}

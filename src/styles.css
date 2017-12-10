@@ -5,7 +5,10 @@
   font-family: proxima;
   src: url("/assets/font/proxim.ttf");
 }
-
+@font-face {
+  font-family: badoniit;
+  src: url("/assets/font/BodoniItalic.ttf");
+}
 html,body{
   margin: 0;
   padding: 0;

@@ -1,7 +1,4 @@
-@font-face {
-  font-family: badoniit;
-  src: url("/assets/font/BodoniItalic.ttf");
-}
+
 .full-width{
   min-width: 100vw;
   filter: sepia(70%) saturate(120%);

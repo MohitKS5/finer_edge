@@ -18,6 +18,7 @@ import {NgsRevealModule} from 'ng-scrollreveal';
 import { CollectionComponent } from './components/collection/collection.component';
 import { PreloaderComponent } from './components/preloader/preloader.component';
 import { SocLinksComponent } from './components/soc-links/soc-links.component';
+import {MarkdownToHtmlModule} from 'ng2-markdown-to-html';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { SocLinksComponent } from './components/soc-links/soc-links.component';
     RoutingModule,
     FlexLayoutModule,
     SlickModule.forRoot(),
-    NgsRevealModule.forRoot()
+    NgsRevealModule.forRoot(),
+    MarkdownToHtmlModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

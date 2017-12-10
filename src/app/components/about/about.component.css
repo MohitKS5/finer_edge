@@ -1,0 +1,15 @@
+.content {
+  font-family: proxima;
+  padding: 10vh 20vw;
+  color: #666;
+}
+
+.highlight{
+  font-size: 1.75rem;
+  color: #999;
+  font-weight: 900;
+}
+
+.big{
+  font-size: 3rem !important;
+}
