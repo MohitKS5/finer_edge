@@ -1,3 +1,18 @@
-<p>
-  projects works!
-</p>
+<mat-sidenav-container class="projects">
+  <mat-sidenav mode="side" opened="true" #sidenav class="sidenav" fxLayoutAlign="end center">
+    <div class="btn" (click)="sidenav.toggle(); status = false">
+      <span>hide</span>
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div fxLayout="column" fxLayoutAlign="center end">
+      <div class="sideitem" *ngFor="let cat of categories">{{cat}}</div>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content class="sidenav-content">
+    <app-gallery [data]="categories"></app-gallery>
+    fuckit
+    <button (click)="sidenav.toggle(); status = !status;" *ngIf="!status">
+      <i class="fa fa-chevron-right"></i> <span>open</span>
+    </button>
+  </mat-sidenav-content>
+</mat-sidenav-container>

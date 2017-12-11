@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {contact} from '../../config/content';
 
 @Component({
@@ -7,10 +7,13 @@ import {contact} from '../../config/content';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  data:any = contact;
-  constructor() { }
+  data: any = contact;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
+
 
 }

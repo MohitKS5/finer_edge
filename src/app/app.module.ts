@@ -19,6 +19,9 @@ import { CollectionComponent } from './components/collection/collection.componen
 import { PreloaderComponent } from './components/preloader/preloader.component';
 import { SocLinksComponent } from './components/soc-links/soc-links.component';
 import {MarkdownToHtmlModule} from 'ng2-markdown-to-html';
+import {MatSidenavModule, MatTabsModule} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 
 @NgModule({
@@ -34,12 +37,16 @@ import {MarkdownToHtmlModule} from 'ng2-markdown-to-html';
     ProjectsComponent,
     CollectionComponent,
     PreloaderComponent,
-    SocLinksComponent
+    SocLinksComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
     RoutingModule,
     FlexLayoutModule,
+    MatSidenavModule,
+    BrowserAnimationsModule,
+    MatTabsModule,
     SlickModule.forRoot(),
     NgsRevealModule.forRoot(),
     MarkdownToHtmlModule.forRoot(),

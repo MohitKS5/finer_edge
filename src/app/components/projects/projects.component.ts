@@ -6,9 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-
+  public status: boolean = true;
+  categories = [
+    'Residential Houses',
+    'Stadiums',
+    'Interiors',
+    'Hospitality',
+    'Convention Center',
+    'Mall and Multiplex',
+    'Bungalows',
+    'Factory',
+    'Hospitals',
+  ];
   constructor() { }
-
   ngOnInit() {
   }
 
