@@ -17,3 +17,13 @@ html,body{
   min-width: 100vw;
   font-family: proxima;
 }
+
+::-webkit-scrollbar {
+  background-color: #fff;
+  width: 0.3vw;
+  /*display: none;*/
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+}

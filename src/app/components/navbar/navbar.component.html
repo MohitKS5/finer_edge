@@ -1,6 +1,6 @@
 <section class="nav">
   <div fxLayout="row" fxLayoutAlign="left center">
-    <div class="logo">
+    <div class="logo" routerLink="">
       <img src="/assets/images/logo.png" alt="logo">
     </div>
     <div *ngFor="let menu of menus" class="menu-item" [routerLink]="menu">{{menu}}</div>

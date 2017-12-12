@@ -4,7 +4,7 @@
 }
 
 .sidenav{
-  min-width: 300px;
+  min-width: 256px;
   width: 25vw;
   height: calc(100vh - 10vh);
   background-color: #fff;
@@ -52,11 +52,11 @@ span{
 }
 
 ::-webkit-scrollbar {
-  background-color: #000;
-  width: 5px;
+  background-color: #fff;
+  width: 0.1vw;
   /*display: none;*/
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(75, 75, 75, 0.95);
+  background-color: #666;
 }
