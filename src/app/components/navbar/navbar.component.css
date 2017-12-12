@@ -2,6 +2,10 @@
   height: 10vh;
   background-color: #fff;
 }
+
+.pseudo_element{
+  height: 10vh;
+}
 .logo{
   padding: 2vh 4vw;
   height: 6vh;
