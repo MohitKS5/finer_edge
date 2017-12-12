@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   public status: boolean = true;
+  public selectedindex: number = 0;
   categories = [
     'Residential Houses',
     'Stadiums',

@@ -1,0 +1,21 @@
+.img {
+  width: 24.65vw;
+}
+
+.img img {
+  width: 100%;
+}
+
+.fixit {
+  position: fixed;
+  top: 10vh;
+  left: 25vw;
+}
+
+.my-container {
+  height: 85vh;
+}
+
+.widen .img{
+  width: 20vw;
+}

@@ -12,5 +12,4 @@ export class SlickComponent implements OnInit {
   @Input() slideConfig;
   ngOnInit() {
   }
-
 }

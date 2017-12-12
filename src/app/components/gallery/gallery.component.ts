@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-gallery',
@@ -6,8 +6,14 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
+  fakeit = [[2,1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
   @Input() data;
-  constructor() { }
+  @Input() stats;
+  constructor() {
+  }
+
+  loaded() {
+  }
 
   ngOnInit() {
   }

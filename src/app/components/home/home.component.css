@@ -19,8 +19,9 @@
 }
 
 .content{
-  width: 100vw;
-  padding: 5vh 18vw;
+  width: 64vw;
+  margin: 5vh 17.5vw;
+  padding: 0;
 }
 
 .speaker{
@@ -64,7 +65,7 @@
 
 
 .cent_width{
-  width: calc(100% - 36vw);
+  width: 64vw;
 }
 
 .bor_down{
