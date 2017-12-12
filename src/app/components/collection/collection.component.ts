@@ -19,7 +19,7 @@ export class CollectionComponent implements OnInit {
     },
     {
       head: 'CLients',
-      pic: '/slides/13.moti interior',
+      pic: '/slides/13.moti_interior',
       cont: 'Look at the vast number of organisations who trust us with their projects and money only to get best outcomes ever.'
     }
   ];
