@@ -1,3 +1,8 @@
 .slide{
-  height: 70vh;
+  width: 100vw;
+}
+
+._img{
+   width: 100vw;
+   min-height: 100vh;
 }

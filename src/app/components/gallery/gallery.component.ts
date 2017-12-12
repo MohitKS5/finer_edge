@@ -8,7 +8,6 @@ import {Component, OnInit, Input} from '@angular/core';
 export class GalleryComponent implements OnInit {
   fakeit = [[2,1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
   @Input() data;
-  @Input() stats;
   constructor() {
   }
 

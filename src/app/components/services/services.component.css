@@ -9,7 +9,7 @@
 
 .backg{
   z-index: -1;
-  background-image: url("/assets/images/slides/13.moti interior.jpg");
+  background-image: url("/assets/images/slides/13.moti_interior.jpg");
   background-color: red;
   filter: grayscale(50%) brightness(30%);
   background-size: cover;

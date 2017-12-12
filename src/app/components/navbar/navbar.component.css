@@ -1,6 +1,9 @@
 .nav{
   height: 10vh;
-  background-color: #fff;
+  position: fixed;
+  width: 100vw;
+  z-index: 900;
+  background-color: transparent;
 }
 
 .pseudo_element{
@@ -9,7 +12,8 @@
 .logo{
   padding: 2vh 4vw;
   height: 6vh;
-  margin-left: 10vw;
+  margin-left: 20px;
+  margin-right: 50vw;
 }
 
 img{
@@ -21,17 +25,23 @@ img{
   letter-spacing: 1px;
   font-size: 1rem;
   padding: .3vw;
-  color: #999;
+  color: #fff;
+  text-shadow: 2px 2px black;
   font-family: proxima;
 }
 
 .menu-item:hover{
   cursor: pointer;
-  color: #666;
+  color: #000;
+  text-shadow: none;
 }
 
 .pos{
   position: absolute;
   right: 70px;
   top: 3vh;
+}
+
+.nonhome{
+  background-color: white;
 }

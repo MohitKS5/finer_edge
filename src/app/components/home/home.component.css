@@ -4,10 +4,6 @@
   filter: sepia(70%) saturate(120%);
 }
 
-.optiheight{
-  height: 75vh;
-}
-
 .slogan{
   font-family: badoniit;
   font-size: 2rem;
