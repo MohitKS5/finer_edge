@@ -22,6 +22,7 @@ import {MarkdownToHtmlModule} from 'ng2-markdown-to-html';
 import {MatSidenavModule, MatTabsModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { PhotosComponent } from './components/photos/photos.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     CollectionComponent,
     PreloaderComponent,
     SocLinksComponent,
-    GalleryComponent
+    GalleryComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,

@@ -3,49 +3,6 @@
   height: 90vh;
 }
 
-.sidenav{
-  min-width: 256px;
-  width: 25vw;
-  height: calc(100vh - 10vh);
-  background-color: #fff;
-}
-
-.sideitem{
-  width: 20vw;
-  padding: 1vh 1vw 1vh 0;
-  margin-right: 2vw;
-  text-align: right;
-  font-size: 1.6rem;
-  border: none;
-  transition: border 0.5s ease-in-out;
-}
-
-button{
-  position: fixed;
-  z-index: 999;
-  top: 2.5vh;
-  font-size: 3vh;
-  left: 2vh;
-  background-color: white;
-  border: none;
-  color: #cde13e;
-}
-
-.btn{
-  position: absolute;
-  top: 0;
-  float: right;
-  padding: 5vh;
-  font-size: 1.5rem;
-  color: #cde13e;
-}
-
-span{
-  color: #999999;
-  font-size: 1.5rem;
-  padding-left: 10px;
-}
-
 .selected{
   color: red;
   border-right: 5px solid #999;

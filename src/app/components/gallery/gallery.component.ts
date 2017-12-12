@@ -6,13 +6,8 @@ import {Component, OnInit, Input} from '@angular/core';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
-  fakeit = [[2,1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
+  fakeit = [[2, 1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
   @Input() data;
-  constructor() {
-  }
-
-  loaded() {
-  }
 
   ngOnInit() {
   }

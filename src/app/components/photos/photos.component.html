@@ -1,0 +1,7 @@
+<div class="my-container" fxLayout="row" fxLayoutWrap fxLayoutAlign="start start">
+  <div fxLayout="column" fxLayoutAlign="center center" class="columns" *ngFor="let it of fakeit">
+    <div *ngFor="let subit of it" class="img" [style.width]="stats?'24.4vw':'33vw'" routerLink="/gallery">
+      <img [src]="'/assets/'+subit+'.jpg'">
+    </div>
+  </div>
+</div>
