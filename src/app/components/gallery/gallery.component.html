@@ -1,5 +1,5 @@
 <mat-tab-group>
-  <mat-tab *ngFor="let cat of data" [label]="cat">
-   <app-photos></app-photos>
+  <mat-tab *ngFor="let cat of data; let i = index" [label]="cat">
+   <app-tabs [foldernum]="i"></app-tabs>
   </mat-tab>
 </mat-tab-group>

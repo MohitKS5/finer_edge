@@ -7,12 +7,11 @@ import {Router} from '@angular/router';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  menus = ['about', 'projects', 'services', 'contact' , 'awards'];
+  menus = ['about', 'awards', 'clients', 'projects', 'contact'];
 
   constructor(public router: Router) { }
 
   ngOnInit() {
-    console.log(this.router.url+'lkdjsfal');
   }
 
 }

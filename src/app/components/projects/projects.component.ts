@@ -11,13 +11,13 @@ export class ProjectsComponent implements OnInit {
   categories = [
     'Residential Houses',
     'Stadiums',
-    'Interiors',
     'Hospitality',
-    'Convention Center',
     'Mall and Multiplex',
-    'Bungalows',
-    'Factory',
-    'Hospitals',
+    // 'Interiors',
+    // 'Convention Center',
+    // 'Bungalows',
+    // 'Factory',
+    // 'Hospitals',
   ];
   constructor() { }
   ngOnInit() {

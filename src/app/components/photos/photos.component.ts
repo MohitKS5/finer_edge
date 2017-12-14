@@ -1,5 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-import {Router} from '@angular/router';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-photos',
@@ -7,14 +6,28 @@ import {Router} from '@angular/router';
   styleUrls: ['./photos.component.css']
 })
 export class PhotosComponent implements OnInit {
-  setone = [[2, 1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
-  settwo = [[1, 4, 3, 1], [4, 3, 1], [2, 1, 3, 1]];
-  public fakeit;
-  constructor(private router: Router) {
-    this.fakeit = this.router.url == '/projects' ? this.setone : this.settwo;
+  @Input() _array: Array<string>;
+  @Input() dir: String;
+  @Input() _caption: boolean;
+  finalData: Array<any> = [];
+
+  constructor() {
+  }
+
+  beautify(text) {
+    return text.replace(/[-_0-9]+/g, ' ');
+  }
+
+  splitArray() {
+    let subdir = this._array;
+    let len = subdir.length;
+    let div = len / 3;
+    this.finalData.push(subdir.slice(0, div));
+    this.finalData.push(subdir.slice(div, 2 * div));
+    this.finalData.push(subdir.slice(2 * div, len));
   }
 
   ngOnInit() {
+    this.splitArray();
   }
-
 }

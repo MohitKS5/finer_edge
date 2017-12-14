@@ -23,6 +23,7 @@ import {MatSidenavModule, MatTabsModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { PhotosComponent } from './components/photos/photos.component';
     PreloaderComponent,
     SocLinksComponent,
     GalleryComponent,
-    PhotosComponent
+    PhotosComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
