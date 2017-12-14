@@ -24,6 +24,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { AwardsComponent } from './components/awards/awards.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     SocLinksComponent,
     GalleryComponent,
     PhotosComponent,
-    TabsComponent
+    TabsComponent,
+    AwardsComponent
   ],
   imports: [
     BrowserModule,

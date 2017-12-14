@@ -27,3 +27,10 @@ html,body{
 ::-webkit-scrollbar-thumb {
   background-color: #999;
 }
+
+
+b{
+  display: block;
+  font-size: 1.7rem;
+  color: #444;
+}

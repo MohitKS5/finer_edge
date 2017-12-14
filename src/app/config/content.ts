@@ -91,7 +91,7 @@ At FINER EDGE, our designs do more than provide our Client's with a beautiful wo
   By managing LEED certification of clients' premises, FINER EDGE registers, administers and delivers the highest LEED rating at
   possible within pre-defined budgets and without compromise to the clients' business or project objectives.
 `
-}];
+  }];
 
 export const contact = {
   address: `A-402, JAY VIJAY COMPLEX<br>
@@ -112,3 +112,22 @@ export const contact = {
   If you have any questions or concerns about your experience,
   please let us know.`
 };
+
+export const awards = [
+  '<b>Ace Alpha Awards 2017</b> Finalist Best Architecture Infrastructure for Toll Plaza at West Bengal.',
+  '<b>Inside Outside, magazine</b> July 2017: Featured Moti Mahal.',
+  '<b>Reality Plus Excellence Award 2016 North</b> Architect of the Year Commercial.',
+  '<b>Delhi Architectural Festival 2016, by SPA Delhi</b> 3rd Prize For Delhi Public School at Rudrapur.',
+  '<b>Delhi Architectural Festival 2016, by SPA Delhi</b> Special Mention for Moti Bungalow at Pune.',
+  '<b>Merit Awards & Market Research India’s Most Prominent Architect & Design Awards 2016</b>- Best Architectural Consultant In Mumbai.',
+  '<b>Prime Time Global Lifestyle Awards 2015</b> Most Promising Architectural Consultant In Mumbai.',
+  '<b>Dainik Jagran, daily newspaper</b> Oct 2010 : Featured Article on Finer Edge.',
+  '<b>CNBC Awaaz</b> 5th June 2010 Featured HCC Corporate Office',
+  '<b>Article in H&FS special edition on Hospitality Design</b>, July 2010.',
+  '<b>Architecture Update</b> Feb 2010; Featured “Best Green Project”, HCC corporate office,',
+  '<b>Architecture Update</b> Feb 2009 ;Featured Library at Walchand College Sangli,',
+  '<b>Cover page “Architecture Update”</b>Sep 2008.featured interview and projects',
+  '<b>Architecture Update</b> Nov 20017; Featured Champali',
+  '<b>Architecture update</b> Nov 2007 ;Featured Interview',
+  '<b>Article in Sakal</b> Nov 2007 Kolhapur, Maharashtra featuring Walchand College Library at Sangli',
+  '<b>Article in “Times Of India” Lucknow </b>4th Jan 1993, on “Dream House”.'];
