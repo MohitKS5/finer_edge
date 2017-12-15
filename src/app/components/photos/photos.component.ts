@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-photos',
@@ -9,9 +9,17 @@ export class PhotosComponent implements OnInit {
   @Input() _array: Array<string>;
   @Input() dir: String;
   @Input() _caption: boolean;
+  @Input() ext: string;
   finalData: Array<any> = [];
+  public div : number;
+  @Output() elementClicked = new EventEmitter();
 
   constructor() {
+  }
+
+  clicked(index: number, path: string){
+    let el = [index, path];
+    this.elementClicked.emit(el);
   }
 
   beautify(text) {
@@ -21,10 +29,10 @@ export class PhotosComponent implements OnInit {
   splitArray() {
     let subdir = this._array;
     let len = subdir.length;
-    let div = len / 3;
-    this.finalData.push(subdir.slice(0, div));
-    this.finalData.push(subdir.slice(div, 2 * div));
-    this.finalData.push(subdir.slice(2 * div, len));
+    this.div = Math.floor( len / 3);
+    this.finalData.push(subdir.slice(0, this.div));
+    this.finalData.push(subdir.slice(this.div, 2 * this.div));
+    this.finalData.push(subdir.slice(2 * this.div, len));
   }
 
   ngOnInit() {

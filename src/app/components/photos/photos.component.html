@@ -1,10 +1,10 @@
 <div class="my-container" fxLayout="row" fxLayoutWrap fxLayoutAlign="start start">
-  <div fxLayout="column" fxLayoutAlign="center center" class="columns" *ngFor="let it of finalData">
-    <div *ngFor="let subit of it" class="img" [style.width]="stats?'24.4vw':'33vw'">
+  <div fxLayout="column" fxLayoutAlign="center center" class="columns" *ngFor="let it of finalData; let i = index">
+    <div *ngFor="let subit of it; let j = index" class="img" [style.width]="stats?'24.4vw':'33vw'">
       <div>
-        <div class="imagewrapper" [routerLink]="['/gallery']">
-          <img [src]="dir + subit + '/01.jpg'" #image>
-          <div class="label">{{beautify(subit).toUpperCase()}}</div>
+        <div class="imagewrapper" (click)="clicked(i*div + j, subit)">
+          <img [src]="dir + subit + ext" #image>
+          <div *ngIf="_caption" class="label">{{beautify(subit).toUpperCase()}}</div>
         </div>
       </div>
     </div>

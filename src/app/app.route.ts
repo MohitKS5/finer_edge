@@ -7,6 +7,7 @@ import {ContactComponent} from './components/contact/contact.component';
 import {ProjectsComponent} from './components/projects/projects.component';
 import {PhotosComponent} from './components/photos/photos.component';
 import {AwardsComponent} from './components/awards/awards.component';
+import {SingleProjectComponent} from './components/single-project/single-project.component';
 
 const routes: Routes = [
   {
@@ -30,13 +31,13 @@ const routes: Routes = [
     component: ProjectsComponent
   },
   {
-    path: 'gallery',
-    component: PhotosComponent
+    path: 'gallery/:dir/:subdir/:index',
+    component: SingleProjectComponent
   },
   {
     path: 'awards',
     component: AwardsComponent
-  }
+  },
 ];
 
 @NgModule({

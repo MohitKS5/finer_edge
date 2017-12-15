@@ -25,6 +25,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { PhotosComponent } from './components/photos/photos.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { AwardsComponent } from './components/awards/awards.component';
+import { SingleProjectComponent } from './components/single-project/single-project.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { AwardsComponent } from './components/awards/awards.component';
     GalleryComponent,
     PhotosComponent,
     TabsComponent,
-    AwardsComponent
+    AwardsComponent,
+    SingleProjectComponent
   ],
   imports: [
     BrowserModule,
