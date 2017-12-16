@@ -1,3 +1,14 @@
-<div class="content highlight">
-  <i class="big">Finer Edge</i> <span markdown-to-html>{{data}}</span>
-</div>
+<section class="main_content">
+  <div>
+    <div class="contens" markdown-to-html>
+      <h2>About Us</h2>
+      <img src="/assets/images/ClientPhoto.jpg" class="client">
+      {{data[0]}}
+    </div>
+  </div>
+  <div *ngFor="let d of data.slice(1)" class="contens">
+    <span markdown-to-html [innerHtml]="d"></span>
+  </div>
+</section>
+<div class="backg"></div>
+<app-services></app-services>

@@ -1,37 +1,38 @@
-export const about = `
-was founded by Arch. Vivek Kishore in the year 2004 with a commitment to provide the best possible design services in Architecture, Interiors and Master Planning.
-
-We are a diverse group of creative and experienced individuals whose work has earned our firm a reputation for DESIGN EXCELLENCE.
-
-Our client’s business objectives and needs are met through FINER EDGE’S integrated solutions approach. We are constantly evolving to serve the need of a diverse group of clients.
-
-We use latest technology in design to create original, sophisticated and economical design solutions for clients which is effective and will reflect their corporate image.
-
-We work with a team of talented vendors and partners to lead our clients through a creative design process where the clients discover and express their own unique taste.
-
-Our office is located at Mumbai but we have been successfully delivering design solutions all over India by associating with qualified, experienced and professional vendors locally.
-
-## OBJECTIVES
-To analyse the client requirement in detail and offer solutions keeping the functional, aesthetic and budget specifications as key pillars of the design.
-
-## DESIGN PHILOSOPHY
-“We believe in the constant exploration of design concepts and thoughts that will ultimately contribute to making the environment a better place to live in.” Each project, small or big, is given the same meticulous attention to achieve the highest standards of design excellence, detailing and quality. Our firm remains committed to providing its clients with design solutions that are innovative yet always appropriate.
-
-## KEY ACHEIVEMENTS
-- Executed multiple projects in multiple fields.
-- Handled twelve projects in hospitality industry.
-- Executing a Township spread over 25 acres.
-- Executing a specialist assignment in Agro Tourism, spread over 250 acres
-- Executing few 50,000 sq.ft plus, Corporate Interiors.
-- Executing 10 multiplexes for Reliance.
-
-## STRENGTHS
-- Capable of handling multifaceted projects in varied fields.
-- Expert in executing large scale projects.
-- Capable of delivering in shortest possible time span without
-- compromising the design.
-- Excellent credentials in project management.`;
-
+export const about = [
+      `
+      FINER EDGE was founded by Arch. Vivek Kishore in the year 2004 with a commitment to provide the best possible design services in Architecture, Interiors and Master Planning.
+      
+      We are a diverse group of creative and experienced individuals whose work has earned our firm a reputation for DESIGN EXCELLENCE.
+      
+      Our client’s business objectives and needs are met through FINER EDGE’S integrated solutions approach. We are constantly evolving to serve the need of a diverse group of clients.
+      
+      We use latest technology in design to create original, sophisticated and economical design solutions for clients which is effective and will reflect their corporate image.
+      
+      We work with a team of talented vendors and partners to lead our clients through a creative design process where the clients discover and express their own unique taste.
+      
+      Our office is located at Mumbai but we have been successfully delivering design solutions all over World by associating with qualified, experienced and professional vendors locally.
+      `,
+  `
+  ## Objective
+  To analyze the client requirement in detail and offer solutions keeping the functional, 
+  aesthetic and budget specifications as key pillars of the design.`,
+  `
+  ## Design Philosophy
+  “We believe in the constant exploration of design concepts and thoughts that will 
+  ultimately contribute to making the environment a better place to live in.” Each 
+  project, small or big, is given the same meticulous attention to achieve the
+  highest standards of design excellence, detailing and quality. Our firm remains
+  committed to providing its clients with design solutions that are innovative 
+  yet always appropriate.`,
+  `
+  ## Key Achievements
+    - Won International Design Competition to design Anzi Football Stadium, Russia.
+    - Won National Design Competition to design Makhanlal University of Journalism, Bhopal
+    - Won International Design Competition to design Presidential Resort at Russia.
+    - Completed ‘_______’ projects in past 13 years.
+    - Projects worth around ___________crores completed
+    - Projects worth around ___________ crores ongoing.
+    - Numerous awards and media mentions as detailed in awards section.`];
 export const services = [
   {
     name: 'Architecture',

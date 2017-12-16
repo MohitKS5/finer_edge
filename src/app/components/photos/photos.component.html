@@ -3,7 +3,8 @@
     <div *ngFor="let subit of it; let j = index" class="img" [style.width]="stats?'24.4vw':'33vw'">
       <div>
         <div class="imagewrapper" (click)="clicked(i*div + j, subit)">
-          <img [src]="dir + subit + ext" #image>
+          <a [href]="dir + subit + ext" target="_blank" *ngIf="!_caption"><img [src]="dir + subit + ext" #image></a>
+          <img [src]="dir + subit + ext" #image *ngIf="_caption">
           <div *ngIf="_caption" class="label">{{beautify(subit).toUpperCase()}}</div>
         </div>
       </div>
