@@ -11,13 +11,14 @@ export class PhotosComponent implements OnInit {
   @Input() _caption: boolean;
   @Input() ext: string;
   finalData: Array<any> = [];
-  public div : number;
+  public div: number;
+  public tooless: boolean;
   @Output() elementClicked = new EventEmitter();
 
   constructor() {
   }
 
-  clicked(index: number, path: string){
+  clicked(index: number, path: string) {
     let el = [index, path];
     this.elementClicked.emit(el);
   }
@@ -29,7 +30,8 @@ export class PhotosComponent implements OnInit {
   splitArray() {
     let subdir = this._array;
     let len = subdir.length;
-    this.div = Math.floor( len / 3);
+    this.tooless = len < 3;
+    this.div = Math.round(len / 3);
     this.finalData.push(subdir.slice(0, this.div));
     this.finalData.push(subdir.slice(this.div, 2 * this.div));
     this.finalData.push(subdir.slice(2 * this.div, len));

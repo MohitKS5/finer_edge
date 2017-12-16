@@ -7,7 +7,7 @@ import {about} from '../../config/content';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  public data: string = about;
+  public data: string[] = about;
   constructor() { }
 
   ngOnInit() {

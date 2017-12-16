@@ -7,17 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   public status: boolean = true;
-  public selectedindex: number = 0;
+  public selectedindex = 0;
   categories = [
     'Residential Houses',
     'Stadiums',
     'Hospitality',
     'Mall and Multiplex',
-    // 'Interiors',
-    // 'Convention Center',
-    // 'Bungalows',
-    // 'Factory',
-    // 'Hospitals',
+    'Institute',
+    'Bungalows',
+    'Commercial Building',
+    'Hospitals',
+    'Factory',
   ];
   constructor() { }
   ngOnInit() {

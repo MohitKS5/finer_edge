@@ -1,6 +1,6 @@
 <div class="my-container" fxLayout="row" fxLayoutWrap fxLayoutAlign="start start">
   <div fxLayout="column" fxLayoutAlign="center center" class="columns" *ngFor="let it of finalData; let i = index">
-    <div *ngFor="let subit of it; let j = index" class="img" [style.width]="stats?'24.4vw':'33vw'">
+    <div *ngFor="let subit of it; let j = index" class="img" [style.width]="tooless?'49.5vw':'33vw'">
       <div>
         <div class="imagewrapper" (click)="clicked(i*div + j, subit)">
           <a [href]="dir + subit + ext" target="_blank" *ngIf="!_caption"><img [src]="dir + subit + ext" #image></a>
