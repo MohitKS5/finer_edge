@@ -9,7 +9,7 @@ export class CollectionComponent implements OnInit {
   collections = [
     {
       head: 'Awards',
-      pic: '/awards/DELHI_ARCHITECTURE_FESTIVAL_1',
+      pic: '/awards/03',
       cont: 'In the journey of 15 yrs we received several awards for excellence in the design and architecture.'
     },
     {

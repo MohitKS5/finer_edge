@@ -1,12 +1,14 @@
-<section class="nav" [class.nonhome]="router.url!='/'">
-  <div fxLayout="row" fxLayoutAlign="left center">
-    <div class="logo" routerLink="">
-      <img src="/assets/images/logo.png" alt="logo">
-    </div>
-    <div *ngFor="let menu of menus" class="menu-item" [routerLink]="menu">{{menu}}</div>
+<section class="nav" [class.nonhome]="router.url!='/'" fxLayout="row">
+  <div class="logo" routerLink="">
+    <img src="/assets/images/logo.png" alt="logo">
   </div>
-  <!--<div class="pos">-->
-    <!--<app-soc-links></app-soc-links>-->
-  <!--</div>-->
+  <div class="menubutton" (click)="status = !status" *ngIf="mobile"><i class="fa fa-bars"></i></div>
+  <div fxLayout="row" fxLayoutAlign="left center" fxLayoutWrap class="menu" [class.inview]="status">
+    <div *ngFor="let menu of menus" class="menu-item" [routerLink]="menu" (click)="status = !status">{{menu}}</div>
+    <div class="socs" *ngIf="mobile">
+      <app-soc-links></app-soc-links>
+    </div>
+  </div>
+  <!--<div *ngIf=""></div>-->
 </section>
 <div class="pseudo_element" *ngIf="router.url!='/'"></div>

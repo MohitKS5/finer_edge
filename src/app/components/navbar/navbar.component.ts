@@ -8,9 +8,9 @@ import {Router} from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
   menus = ['about', 'awards', 'clients', 'projects', 'contact'];
-
+  mobile = window.screen.width < 1023;
+  status: Boolean = false;
   constructor(public router: Router) { }
-
   ngOnInit() {
   }
 

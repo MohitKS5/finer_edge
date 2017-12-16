@@ -2,7 +2,7 @@
   <div class="banner" fxLayoutAlign="center center">
     Contact Us
   </div>
-  <div fxLayout="row" fxLayoutAlign="space-between top" class="content" fxLayoutGap="3vw">
+  <div [fxLayout]="mobile?'column':'row'" fxLayoutAlign="space-between top" class="content" fxLayoutGap="3vw">
     <div class="contact">
       <span class="findus">Contact Us</span>
       <div markdown-to-html [innerHTML]="data.address" class="address"></div>

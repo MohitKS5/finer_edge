@@ -2,6 +2,7 @@
 .full-width{
   min-width: 100vw;
   filter: sepia(70%) saturate(120%);
+  margin-top: 10vh;
 }
 
 .slogan{
@@ -50,7 +51,7 @@
 }
 
 .serv{
-  padding: 2vh;
+  padding: 2vmin;
   font-family: proxima;
   font-size: 2rem;
   font-weight: lighter;
@@ -61,10 +62,28 @@
 
 
 .cent_width{
-  width: 64vw;
+  width: 64vmax;
 }
 
 .bor_down{
   padding-bottom: 8vh;
   border-bottom: 3px solid #eee;
+}
+
+@media (max-width: 1023px) {
+  .content{
+    margin: 10vw;
+    width: 80vw;
+
+  }
+
+  .cent_width{
+    width: 90vw;
+  }
+
+  .serv{
+    padding: 0;
+  }
+
+
 }

@@ -14,7 +14,7 @@ export class PhotosComponent implements OnInit {
   public div: number;
   public tooless: boolean;
   @Output() elementClicked = new EventEmitter();
-
+  public mobile = window.screen.width < 1023;
   constructor() {
   }
 
@@ -24,7 +24,7 @@ export class PhotosComponent implements OnInit {
   }
 
   beautify(text) {
-    return text.replace(/[-_0-9]+/g, ' ');
+    return text.replace(/[-_.0-9]+/g, ' ');
   }
 
   splitArray() {

@@ -8,6 +8,7 @@ import {contact} from '../../config/content';
 })
 export class ContactComponent implements OnInit {
   data: any = contact;
+  mobile = window.screen.width < 1023;
 
   constructor() {
   }

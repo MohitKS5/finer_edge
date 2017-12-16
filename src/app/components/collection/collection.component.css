@@ -1,5 +1,5 @@
 .collection {
-  padding: 10vh 0;
+  padding: 10vmin 0;
   font-family: proxima;
   font-size: 1.3rem;
   color: #666;
@@ -18,8 +18,8 @@
 }
 
 .item {
-  width: 20vw;
-  margin: 1vw;
+  width: 19vw;
+  margin: 1vmax;
   background-color: rgba(0, 0, 0, 0.01);
 }
 
@@ -55,4 +55,14 @@
   line-height: 1.25rem;
   padding: 4vh 0;
   letter-spacing: 1.8px;
+}
+
+@media (max-width: 1023px) {
+  .item,.img{
+    width: 80vw;
+  }
+  .cont{
+    width: 80vw;
+  }
+
 }

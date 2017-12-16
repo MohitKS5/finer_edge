@@ -1,5 +1,6 @@
 .socs{
   font-size: 2rem;
+  padding-left: 20px;
 }
 
 i{
@@ -7,15 +8,20 @@ i{
   width: 50px;
   border-radius: 50%;
   text-align: center;
-  color: white;
-  text-shadow: 2px 1px black;
+  color: black;
   line-height: 50px;
   transition: all 0.5s ease-in-out;
-  margin: 0 10px;
+  margin: 0 5px;
   border: 1px solid #eee;
 }
 
 i:hover{
   background-color: black;
   transform: rotateZ(360deg);
+}
+
+@media (max-width: 1023px) {
+  .socs{
+    font-size: 4rem;
+  }
 }

@@ -35,3 +35,9 @@ b{
   font-size: 1.7rem;
   color: #444;
 }
+
+@media (max-width: 1023px) {
+  html,body{
+    font-size: 8px;
+  }
+}
