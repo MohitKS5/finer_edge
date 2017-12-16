@@ -10,7 +10,7 @@ export class PhotosComponent implements OnInit {
   @Input() dir: String;
   @Input() _caption: boolean;
   @Input() ext: string;
-  finalData: Array<any> = [];
+  finalData: Array<any> = [[], [], []];
   public div: number;
   public tooless: boolean;
   @Output() elementClicked = new EventEmitter();
@@ -32,9 +32,9 @@ export class PhotosComponent implements OnInit {
     let len = subdir.length;
     this.tooless = len < 3;
     this.div = Math.round(len / 3);
-    this.finalData.push(subdir.slice(0, this.div));
-    this.finalData.push(subdir.slice(this.div, 2 * this.div));
-    this.finalData.push(subdir.slice(2 * this.div, len));
+    for (let i = 0; i < len; i++) {
+      this.finalData[i % 3].push(subdir[i]);
+    }
   }
 
   ngOnInit() {
