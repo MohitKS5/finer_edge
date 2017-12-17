@@ -26,6 +26,7 @@ import { PhotosComponent } from './components/photos/photos.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { SingleProjectComponent } from './components/single-project/single-project.component';
+import { ClientsComponent } from './components/clients/clients.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { SingleProjectComponent } from './components/single-project/single-proje
     PhotosComponent,
     TabsComponent,
     AwardsComponent,
-    SingleProjectComponent
+    SingleProjectComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,

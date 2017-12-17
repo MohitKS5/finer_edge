@@ -1,0 +1,6 @@
+<div fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap>
+  <figure class="images" *ngFor="let client of clients">
+    <img [src]="'/assets/clients/' + client">
+    <figcaption [innerHTML]="beautify(client)"></figcaption>
+  </figure>
+</div>

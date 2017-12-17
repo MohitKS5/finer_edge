@@ -1,7 +1,7 @@
 <div class="snipit">
   <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig">
-    <div ngxSlickItem *ngFor="let slide of slides; let i = index" class="slide">
-      <img src="{{ slide }}" class="_img" [style.background]="i%2 ? '#fff' : '#cff'">
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+      <img src="{{dir + slide + '.jpg' }}" class="_img">
     </div>
   </ngx-slick>
 </div>

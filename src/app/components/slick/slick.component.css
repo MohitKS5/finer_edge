@@ -6,7 +6,8 @@
   width: 100vw;
   height: 90vh;
   object-fit: contain;
-  filter: sepia(30%) saturate(120%);
+  background-color: rgba(0,0,0,0.06);
+  filter: sepia(30%) saturate(120%) contrast(150%);
 }
 
 .carousel{

@@ -11,6 +11,7 @@ export class SlickComponent implements OnInit {
 
   @Input() slides;
   @Input() slideConfig;
+  @Input() dir;
 
   ngOnInit() {
   }

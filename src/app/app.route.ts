@@ -8,6 +8,7 @@ import {ProjectsComponent} from './components/projects/projects.component';
 import {PhotosComponent} from './components/photos/photos.component';
 import {AwardsComponent} from './components/awards/awards.component';
 import {SingleProjectComponent} from './components/single-project/single-project.component';
+import {ClientsComponent} from './components/clients/clients.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,10 @@ const routes: Routes = [
     path: 'awards',
     component: AwardsComponent
   },
+  {
+    path: 'clients',
+    component: ClientsComponent
+  }
 ];
 
 @NgModule({

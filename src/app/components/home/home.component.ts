@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {generic_names} from '../../config/projects';
 
 @Component({
   selector: 'app-home',
@@ -6,12 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  slides = [
-    '/assets/images/slides/02.ANZI_FOOTBALL_STADIUM_RUSSIA.jpg',
-    '/assets/images/slides/01.EKANT.jpg',
-    '/assets/images/slides/03.CELESTIAL_CITY.jpg',
-    '/assets/images/slides/04.walchand_engineering_college.jpg'
-  ];
+  slides = generic_names.slice(0, 13);
   slideConfig = {
     'slidesToShow': 1,
     'slidesToScroll': 1,

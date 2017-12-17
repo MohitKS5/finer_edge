@@ -1,5 +1,5 @@
 export const about = [
-      `
+  `
       FINER EDGE was founded by Arch. Vivek Kishore in the year 2004 with a commitment to provide the best possible design services in Architecture, Interiors and Master Planning.
       
       We are a diverse group of creative and experienced individuals whose work has earned our firm a reputation for DESIGN EXCELLENCE.
@@ -107,6 +107,10 @@ export const contact = {
 
   E-mail	: vivek@fineredge.net`,
   info: `
+  # <b>Career Finer Edge</b>
+  ### Join us, mail your resume on following email id
+  E-mail : vivek@fineredge.net
+  
   ## Tell us what you think!
 
   We are constantly working to raise the bar on our services. 
@@ -132,3 +136,11 @@ export const awards = [
   '<b>Architecture update</b> Nov 2007 ;Featured Interview',
   '<b>Article in Sakal</b> Nov 2007 Kolhapur, Maharashtra featuring Walchand College Library at Sangli',
   '<b>Article in “Times Of India” Lucknow </b>4th Jan 1993, on “Dream House”.'];
+
+export const clients = ['abp_news.png', 'aditya_birla_group.jpg', 'adlabs.jpg',
+  'central_institute_of_fisheries_education.jpg', 'city_bank.jpg',
+  'delhi_public_school.jpg', 'govt._of_india.jpg', 'hcc.jpg', 'highbar_technologies.jpg',
+  'ilfs.png', 'indian_railway.jpg', 'kanakia.jpg', 'konica_minolta.png', 'kotak.jpg',
+  'lavasa.jpg', 'm.p.housing_board.jpg', 'pharande_spaces.jpg',
+  'shapoorji_pallonji_&_co_ltd.jpg', 'sheltrex_logo.jpg', 'sony.jpg', 'star_maza.jpg',
+  'steiner.png', 'taj.jpg'];
