@@ -25,8 +25,7 @@ img{
   letter-spacing: 1px;
   font-size: 1rem;
   padding: .3vw;
-  color: #fff;
-  text-shadow: 2px 2px black;
+  color: #666;
   font-family: proxima;
 }
 
@@ -62,9 +61,6 @@ img{
     width: 70vw;
     margin: 5vw;
     font-size: 2rem;
-    line-height: 2rem;
-    text-shadow: none;
-    color: #666;
     padding: 0 30px;
   }
 
@@ -84,6 +80,6 @@ img{
     padding: 3vh;
     font-size: 4vh;
     color: black;
-    z-index: 999999;
+    z-index: 901;
   }
 }

@@ -13,6 +13,7 @@ export class PhotosComponent implements OnInit {
   finalData: Array<any> = [[], [], []];
   public div: number;
   public tooless: boolean;
+  public clickedelem: number;
   @Output() elementClicked = new EventEmitter();
   public mobile = window.screen.width < 1023;
   constructor() {
@@ -20,6 +21,7 @@ export class PhotosComponent implements OnInit {
 
   clicked(index: number, path: string) {
     let el = [index, path];
+    this.clickedelem = index;
     this.elementClicked.emit(el);
   }
 

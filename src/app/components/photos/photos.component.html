@@ -2,9 +2,10 @@
   <div fxLayout="column" fxLayoutAlign="center center" class="columns" *ngFor="let it of finalData; let i = index">
     <div *ngFor="let subit of it; let j = index" class="img" [style.width]="mobile ? '99.6vw': (tooless?'49.5vw':'33vw')">
       <div>
-        <div class="imagewrapper" (click)="clicked(i + j * 3, subit)">
-          <a [href]="dir + subit + ext" target="_blank" *ngIf="!_caption"><img [src]="dir + subit + ext" #image></a>
-          <img [src]="dir + subit + ext" #image *ngIf="_caption">
+        <div class="imagewrapper">
+          <div *ngIf="!_caption" [style.background-image]="'url('+dir + subit + ext+')'"
+               [class.expand]="clickedelem === i + j * 3" class="hidden" (click)="clickedelem = -1"></div>
+          <img [src]="dir + subit + ext" #image (click)="clicked(i + j * 3, subit)">
           <div *ngIf="_caption" class="label">{{beautify(subit).toUpperCase()}}</div>
         </div>
       </div>

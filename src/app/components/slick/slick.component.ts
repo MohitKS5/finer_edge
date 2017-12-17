@@ -6,10 +6,12 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./slick.component.css']
 })
 export class SlickComponent implements OnInit {
+  constructor() {
+  }
 
-  constructor() { }
   @Input() slides;
   @Input() slideConfig;
+
   ngOnInit() {
   }
 }

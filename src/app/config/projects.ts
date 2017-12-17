@@ -1,5 +1,5 @@
 export const a = ['01.residential_township', '02.stadium', '03.hospitality', '04.mall_and_multiplex',
-  '05.institutes', '06.bungalows', '07.commercial_buildings', '08.hospitals', '09.factory'];
+  '05.institutes', '06.bungalows', '07.commercial_buildings', '08.hospitals', '09.factory', '10.interiors'];
 export const data = {
   _0: ['01-celestial_city_pune', '02-woods_ville_pune', '03-air_castle_pune',
     '04-river_side_county', '05-kasara_hills_sheltrex', '06-ecopolis_alwar',
@@ -46,7 +46,18 @@ export const data = {
     '03.datia_medical_college', '04.mohali_hospital', '05.hamidia_bhopal'],
 
   _8: ['01.champali_floriclure_gardens', '02.hcc_workshop', '03._patanjali_food_park_mihan',
-    '04.adarsh_at_wada']
+    '04.adarsh_at_wada'],
+
+  _9: ['01.hcc_corporate_office', '02.moti_mahal', '03.kathmandu_nepal', '04.xpaxinon_pune',
+    '05.chairmens_office_hcc', '06.ekant_lavasa', '07.lavasa_corporate_office',
+    '08.kotak_bank', '09.abp_news', '10.zaf_fitness_centre', '11.247_park_food_court',
+    '12.hcc_exp_centre', '13.idfc_highway_concession', '14.hill_side_mumbai',
+    '15.hindustan_microfinance', '16.lavasa_experience_centre',
+    '17.konica_minolta_mumbai', '18.rna', '19.hcc_infra', '20.konica_minolta_bangalore',
+    '21.toyota', '22.hcc_badarpur', '23.kotak_bhaktawar_nariman_point', '24.gm_motors',
+    '25.highbar', '26.citi_bank_guest_house', '27.steiner', '28.town_hall_lavasa',
+    '29.star_news', '30.hotel_palash_bhopal', '31.hotel_restaurant_bristo_bar_pune',
+    '32.kotak_vbc_mumbai']
 };
 
 export const numbers = [
@@ -58,7 +69,8 @@ export const numbers = [
   [21, 5, 2, 3, 2, 1, 2, 4, 2, 2, 3, 3, 2, 2, 2, 2],
   [5, 4, 5, 3, 2, 2, 1, 4, 6, 3, 1, 1, 2, 2, 4, 4],
   [1, 1, 2, 1, 6],
-  [5, 2, 6, 3]
+  [5, 2, 6, 3],
+  [12, 14, 11, 10, 10, 5, 8, 5, 8, 9, 10, 8, 9, 10, 9, 5, 9, 9, 7, 5, 3, 4, 7, 5, 6, 5, 5, 5, 5, 2, 2, 6]
 ];
 
 export const generic_names = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'];
