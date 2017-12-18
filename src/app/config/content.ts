@@ -2,6 +2,8 @@ export const about = [
   `
       FINER EDGE was founded by Arch. Vivek Kishore in the year 2004 with a commitment to provide the best possible design services in Architecture, Interiors and Master Planning.
       
+      Ar. Vivek Kishore has an overall experience of 25 years in Architecture & Interior field.
+      
       We are a diverse group of creative and experienced individuals whose work has earned our firm a reputation for DESIGN EXCELLENCE.
       
       Our client’s business objectives and needs are met through FINER EDGE’S integrated solutions approach. We are constantly evolving to serve the need of a diverse group of clients.
@@ -32,7 +34,8 @@ export const about = [
     - Completed ‘_______’ projects in past 13 years.
     - Projects worth around ___________crores completed
     - Projects worth around ___________ crores ongoing.
-    - Numerous awards and media mentions as detailed in awards section.`];
+    - Numerous awards and media mentions as detailed in awards section.`,
+  `We provide services for Architecture, Interior, Urban Planning & Sustainable projects. `];
 export const services = [
   {
     name: 'Architecture',

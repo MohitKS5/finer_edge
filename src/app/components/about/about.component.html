@@ -6,6 +6,16 @@
       <img src="/assets/images/ClientPhoto.jpg" class="client">
       {{data[0]}}
     </div>
+    <div class="blockset" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="3vh">
+      <span class="blockhead">We ensure that our approach will achieve..</span>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap>
+        <div *ngFor="let d of data2" class="blocks" fxLayoutAlign="center center" fxLayout="column"
+             fxLayoutGap="4vh">
+          <i [class]="d.pic"></i>
+          <span>{{d.name}}</span>
+        </div>
+      </div>
+    </div>
   </div>
   <div *ngFor="let d of data.slice(1)" class="contens">
     <span markdown-to-html [innerHtml]="d"></span>

@@ -35,6 +35,11 @@ const routes: Routes = [
       {
         path: ':id',
         component: TabsComponent,
+      },
+      {
+        path: '',
+        redirectTo: '01',
+        pathMatch: 'prefix'
       }
     ]
   },

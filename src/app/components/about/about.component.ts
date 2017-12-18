@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {about} from '../../config/content';
+import {about, services} from '../../config/content';
 
 @Component({
   selector: 'app-about',
@@ -8,6 +8,7 @@ import {about} from '../../config/content';
 })
 export class AboutComponent implements OnInit {
   public data: string[] = about;
+  public data2 = services[0]['blocks'];
   constructor() { }
 
   ngOnInit() {

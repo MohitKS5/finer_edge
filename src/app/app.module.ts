@@ -27,6 +27,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { SingleProjectComponent } from './components/single-project/single-project.component';
 import { ClientsComponent } from './components/clients/clients.component';
+import { LazyLoadImageModule } from 'ng2-lazyload-image';
 
 
 @NgModule({
@@ -57,6 +58,7 @@ import { ClientsComponent } from './components/clients/clients.component';
     MatSidenavModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    LazyLoadImageModule,
     SlickModule.forRoot(),
     NgsRevealModule.forRoot(),
     MarkdownToHtmlModule.forRoot(),

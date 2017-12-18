@@ -9,7 +9,7 @@
             <div class="prev" (click)="previous()"><i class="fa fa-caret-left"></i></div>
             <div class="close" (click)="clickedelem = -1"><i class="fa fa-close"></i></div>
           </div>
-          <img [src]="dir + subit + ext" #image (click)="clicked(i + j * 3, subit)">
+          <img defaultImage="/assets/loader.gif" [lazyLoad]="dir + subit + ext" #image (click)="clicked(i + j * 3, subit)">
           <div *ngIf="_caption" class="label">{{beautify(subit).toUpperCase()}}</div>
         </div>
       </div>

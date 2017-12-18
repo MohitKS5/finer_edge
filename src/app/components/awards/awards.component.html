@@ -1,12 +1,12 @@
 <div fxLayout="row" fxLayoutAlign="center start" class="def">
   <div fxLayout="column" fxLayoutAlign="space-between center" class="pics slight">
-    <img *ngFor="let img of images.slice(0,4)" [src]="'/assets/images/awards/'+img+'.jpg'">
+    <img *ngFor="let img of images.slice(0,4)" defaultImage="/assets/loader.gif" [lazyLoad]="'/assets/images/awards/'+img+'.jpg'">
   </div>
   <div fxLayout="column" fxLayoutAlign="center center" class="_text">
     <h1>Awards & Media</h1>
     <div *ngFor="let dat of data" markdown-to-html [innerHTML]="dat"></div>
   </div>
   <div fxLayout="column" fxLayoutAlign="space-between center" class="pics">
-    <img *ngFor="let img of images.slice(4,8)" [src]="'/assets/images/awards/'+img+'.jpg'">
+    <img *ngFor="let img of images.slice(4,8)" defaultImage="/assets/loader.gif" [lazyLoad]="'/assets/images/awards/'+img+'.jpg'">
   </div>
 </div>
