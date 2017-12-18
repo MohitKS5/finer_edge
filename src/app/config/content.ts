@@ -140,10 +140,10 @@ export const awards = [
   '<b>Article in Sakal</b> Nov 2007 Kolhapur, Maharashtra featuring Walchand College Library at Sangli',
   '<b>Article in “Times Of India” Lucknow </b>4th Jan 1993, on “Dream House”.'];
 
-export const clients = ['abp_news.png', 'aditya_birla_group.jpg', 'adlabs.jpg',
-  'central_institute_of_fisheries_education.jpg', 'city_bank.jpg',
-  'delhi_public_school.jpg', 'govt._of_india.jpg', 'hcc.jpg', 'highbar_technologies.jpg',
-  'ilfs.png', 'indian_railway.jpg', 'kanakia.jpg', 'konica_minolta.png', 'kotak.jpg',
-  'lavasa.jpg', 'm.p.housing_board.jpg', 'pharande_spaces.jpg',
-  'shapoorji_pallonji_&_co_ltd.jpg', 'sheltrex_logo.jpg', 'sony.jpg', 'star_maza.jpg',
-  'steiner.png', 'taj.jpg'];
+export const clients = ['01.govt._of_india.jpg', '02.indian_railway.jpg', '03.lavasa.jpg',
+  '04.aditya_birla_group.jpg', '05.shapoorji_pallonji_&_co_ltd.jpg', '06.taj.jpg',
+  '07.hcc.jpg', '08.delhi_public_school.jpg', '09.cife.jpg', '10.m.p.housing_board.jpg',
+  '11.city_bank.jpg', '12.abp_news.png', '13.ilfs.png', '14.kotak.jpg', 'adlabs.jpg',
+  '16.pharande_spaces.jpg', '17.star_maza.jpg', '18.sony.jpg', '19.konica_minolta.png',
+  '20.kanakia.jpg', '21.sheltrex_logo.jpg', '22.steiner.png',
+  '23.highbar_technologies.jpg'];
