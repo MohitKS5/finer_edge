@@ -2,7 +2,7 @@
   width: 24.7vw;
 }
 
-.img:hover img{
+.img:hover img {
   filter: brightness(130%);
   cursor: pointer;
 }
@@ -21,11 +21,12 @@
   min-height: 85vh;
   position: relative;
 }
-.imagewrapper{
+
+.imagewrapper {
   position: relative;
 }
 
-.imagewrapper .label{
+.imagewrapper .label {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -40,16 +41,48 @@
   transition: all 0.5s ease-out;
 }
 
-.imagewrapper:hover .label{
+.imagewrapper:hover .label {
   background-color: white;
   text-shadow: none;
   color: #000;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
-.expand{
+
+.next, .prev , .close{
+  width: 100px;
+  font-size: 10vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 46vh;
+  color: greenyellow;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  background-color: transparent;
+  font-size: 5vh;
+}
+.next:hover, .prev:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}
+
+.expand {
   position: fixed;
   display: block;
   top: 0;
@@ -59,16 +92,16 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1000;
   animation: expands 0.2s ease-in-out forwards;
 }
 
 @keyframes expands {
-  0%{
+  0% {
     transform: scale(0.001);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }

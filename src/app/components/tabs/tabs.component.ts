@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {a, data} from '../../config/projects';
-import {Router} from '@angular/router';
+import {ActivatedRoute, ParamMap, Router} from '@angular/router';
+import 'rxjs/add/operator/switchMap';
 
 @Component({
   selector: 'app-tabs',
@@ -8,15 +9,25 @@ import {Router} from '@angular/router';
   styleUrls: ['./tabs.component.css']
 })
 export class TabsComponent implements OnInit {
-  @Input() foldernum: number;
+  foldernum: string;
   public a = a;
-  public data = data;
-  constructor( private router: Router) { }
-  routeTo(element){
+  private data = data;
+  array: any;
+
+  constructor(private router: Router, private route: ActivatedRoute) {
+  }
+
+  routeTo(element) {
     const num = this.foldernum + '-' + element[0];
     this.router.navigate(['/gallery', a[this.foldernum], element[1], num]);
   }
-  ngOnInit() {
-  }
 
+  ngOnInit() {
+    this.route.paramMap
+      .switchMap((params: ParamMap) => params.get('id'))
+      .subscribe((res) => {
+        this.foldernum = res;
+        this.array = this.data['_' + this.foldernum];
+      });
+  }
 }

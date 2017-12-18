@@ -9,6 +9,7 @@ import {PhotosComponent} from './components/photos/photos.component';
 import {AwardsComponent} from './components/awards/awards.component';
 import {SingleProjectComponent} from './components/single-project/single-project.component';
 import {ClientsComponent} from './components/clients/clients.component';
+import {TabsComponent} from './components/tabs/tabs.component';
 
 const routes: Routes = [
   {
@@ -29,7 +30,13 @@ const routes: Routes = [
   },
   {
     path: 'projects',
-    component: ProjectsComponent
+    component: ProjectsComponent,
+    children: [
+      {
+        path: ':id',
+        component: TabsComponent,
+      }
+    ]
   },
   {
     path: 'gallery/:dir/:subdir/:index',

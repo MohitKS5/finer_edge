@@ -10,6 +10,7 @@ export class ProjectsComponent implements OnInit {
   public selectedindex = 0;
   categories = [
     'Residential Township',
+    'Interiors',
     'Stadiums',
     'Hospitality',
     'Mall and Multiplex',
@@ -18,7 +19,6 @@ export class ProjectsComponent implements OnInit {
     'Commercial Building',
     'Hospitals',
     'Factory',
-    'Interiors'
   ];
   constructor() { }
   ngOnInit() {
