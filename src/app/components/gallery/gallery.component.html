@@ -1,10 +1,5 @@
-<nav mat-tab-nav-bar>
-  <a mat-tab-link
-     *ngFor="let cat of data; let i = index"
-     [routerLink]="['/projects',i]"
-     routerLinkActive #rla="routerLinkActive"
-     [active]="rla.isActive">
-    {{cat}}
-  </a>
-</nav>
+<mat-tab-group (selectChange)="onSelect($event)">
+  <mat-tab *ngFor="let cat of data; let i = index" [label]="cat" onclick="navigator(i)">
+  </mat-tab>
+</mat-tab-group>
 <router-outlet></router-outlet>

@@ -14,7 +14,6 @@
 .img img {
   width: 100%;
   filter: brightness(120%) sepia(30%);
-  filter: brightness(120%) sepia(30%);
 }
 
 .item {
@@ -55,14 +54,16 @@
   line-height: 1.25rem;
   padding: 4vh 0;
   letter-spacing: 1.8px;
+  min-height: 10vh;
+  height: 100px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 500px) {
   .item,.img{
     width: 80vw;
   }
   .cont{
     width: 80vw;
+    min-height: 0;
   }
-
 }

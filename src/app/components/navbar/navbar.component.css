@@ -60,7 +60,7 @@ img{
 
   .menu-item{
     width: 70vw;
-    margin: 5vw;
+    margin: 5vmin;
     font-size: 2rem;
     padding: 0 30px;
   }
@@ -68,6 +68,7 @@ img{
   .socs{
     position: absolute;
     bottom: 5px;
+    width: 80vw;
   }
 
   .inview{

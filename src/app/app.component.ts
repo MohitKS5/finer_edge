@@ -6,16 +6,22 @@ import {NavigationEnd, Router} from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
-  constructor(private router: Router){}
+export class AppComponent implements OnInit {
+  constructor(private router: Router) {
+  }
 
   title = 'app';
-  ngOnInit(){
+
+  ngOnInit() {
     this.router.events.subscribe((evt) => {
       if (!(evt instanceof NavigationEnd)) {
         return;
       }
-      document.querySelector('.mynav').scrollIntoView({behavior: 'smooth'});
+      if (window.screen.width > 1023) {
+        document.querySelector('.mynav').scrollIntoView({behavior: 'smooth'});
+      } else {
+        window.scrollTo(0, 0);
+      }
     });
   }
 }

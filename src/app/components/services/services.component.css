@@ -2,8 +2,8 @@
   font-family: proxima;
   font-size: 1.5rem;
   padding-top: 10vh;
-  color: white;
-  background: transparent;
+  color: black;
+  background: rgba(255,255,255,0.8);
   z-index: 1;
 }
 
@@ -11,7 +11,7 @@
   z-index: -1;
   background-image: url("/assets/images/slides/13.jpg");
   background-color: red;
-  filter: grayscale(50%) brightness(30%);
+  filter: grayscale(50%);
   background-size: cover;
   position: fixed;
   background-attachment: fixed;
@@ -22,7 +22,7 @@
 }
 
 .blocks{
-  width: 15vw;
+  width: 15vmax;
   min-height: 25vh;
   border: 1px solid #ccc;
   margin: 1vw;

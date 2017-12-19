@@ -5,7 +5,7 @@
   <div class="menubutton" (click)="status = !status" *ngIf="mobile"><i class="fa fa-bars"></i></div>
   <div fxLayout="row" fxLayoutAlign="left center" fxLayoutWrap class="menu" [class.inview]="status">
     <div *ngFor="let menu of menus" class="menu-item" [routerLink]="menu" (click)="status = !status">{{menu}}</div>
-    <div class="socs" *ngIf="mobile">
+    <div class="socs" *ngIf="mobile" fxLayoutAlign="center center">
       <app-soc-links></app-soc-links>
     </div>
   </div>
