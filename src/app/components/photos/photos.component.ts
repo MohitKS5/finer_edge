@@ -21,7 +21,7 @@ export class PhotosComponent implements OnInit {
   public len = 10;
   walkthrough = true;
   showiframe = false;
-  id = 'w-kG6Xm7Zt0';
+  id: any = 0;
   @Output() elementClicked = new EventEmitter();
   public mobile = window.screen.width < 1023;
 
@@ -58,8 +58,9 @@ export class PhotosComponent implements OnInit {
     this.len = len;
     this.tooless = len < 3;
     this.div = Math.round(len / 3);
+    let add = this.id ? 1 : 0;
     for (let i = 0; i < len; i++) {
-      this.finalData[i % 3].push(subdir[i]);
+      this.finalData[(i + add) % 3].push(subdir[i]);
     }
     return this.finalData;
   }
