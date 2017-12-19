@@ -1,5 +1,8 @@
-<mat-tab-group (selectChange)="onSelect($event)">
-  <mat-tab *ngFor="let cat of data; let i = index" [label]="cat" class="abc">
+<mat-tab-group (selectedTabChange)="onSelect($event)">
+  <mat-tab *ngFor="let cat of data; let i = index">
+    <ng-template mat-tab-label>
+      <div class="pseudo" (click)=" i===0 ? go(i):''" fxLayoutAlign="center center"><span>{{cat}}</span></div>
+    </ng-template>
   </mat-tab>
 </mat-tab-group>
 <router-outlet></router-outlet>

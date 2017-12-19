@@ -18,6 +18,14 @@ export class GalleryComponent implements OnInit {
     this.router.navigate(['/projects', i.index]);
   }
 
+  go(i){
+    this.router.navigate(['/projects', i]);
+  }
+
+  logger(i) {
+    console.log(i);
+  }
+
   ngOnInit() {
     this.active = 3;
   }

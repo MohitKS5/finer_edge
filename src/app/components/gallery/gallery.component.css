@@ -25,3 +25,8 @@
 .widen .img{
   width: 20vw;
 }
+
+.pseudo{
+  height: 5vh;
+  width: 100%;
+}

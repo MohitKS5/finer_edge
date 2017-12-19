@@ -60,7 +60,7 @@ iframe {
   font-size: 10vh;
   background-color: rgba(255, 255, 255, 0.3);
   margin-top: 46vh;
-  color: greenyellow;
+  color: black;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
@@ -72,11 +72,13 @@ iframe {
   margin: 0;
   background-color: transparent;
   font-size: 5vh;
+  color: #eee;
 }
 
 .next:hover, .prev:hover {
   cursor: pointer;
   background-color: transparent;
+  color: #eee;
 }
 
 .next {
