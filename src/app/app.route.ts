@@ -38,7 +38,7 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '01',
+        redirectTo: '0',
         pathMatch: 'prefix'
       }
     ]
