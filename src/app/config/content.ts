@@ -147,3 +147,4 @@ export const clients = ['01.govt._of_india.jpg', '02.indian_railway.jpg', '03.la
   '16.pharande_spaces.jpg', '17.star_maza.jpg', '18.sony.jpg', '19.konica_minolta.png',
   '20.kanakia.jpg', '21.sheltrex_logo.jpg', '22.steiner.png',
   '23.highbar_technologies.jpg'];
+

@@ -1,5 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {generic_names} from '../../config/projects';
+import {generic_names, youtube} from '../../config/projects';
+import {DomSanitizer} from '@angular/platform-browser';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-photos',
@@ -17,10 +19,17 @@ export class PhotosComponent implements OnInit {
   public clickedelem: number;
   public elementtoshow: any;
   public len = 10;
+  walkthrough = true;
+  showiframe = false;
+  id = 'w-kG6Xm7Zt0';
   @Output() elementClicked = new EventEmitter();
   public mobile = window.screen.width < 1023;
 
-  constructor() {
+  constructor(private sanitizer: DomSanitizer, private router: Router) {
+  }
+
+  sanitize() {
+    return this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/' + this.id + '?autoplay=1;rel=0');
   }
 
   clicked(index: number, path: string) {
@@ -32,7 +41,6 @@ export class PhotosComponent implements OnInit {
 
   next() {
     this.elementtoshow = generic_names[+this.elementtoshow];
-    console.log(this.len, this.clickedelem);
   }
 
   previous() {
@@ -58,5 +66,6 @@ export class PhotosComponent implements OnInit {
 
   ngOnInit() {
     this.splitArray();
+    this.id = youtube[this.router.url.split('/').slice(-2)[0].replace(/[-.0-9]+/g, '')];
   }
 }

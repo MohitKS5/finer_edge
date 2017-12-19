@@ -22,7 +22,6 @@ export class SingleProjectComponent implements OnInit {
 
   ngOnInit() {
     this.populate();
-    console.log(this.router.url.split('/').slice(-3));
   }
 
 }

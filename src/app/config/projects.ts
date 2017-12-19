@@ -3,7 +3,7 @@ export const a = ['01.residential_township', '10.interiors', '02.stadium', '03.h
 export const data = {
   _0: ['01-celestial_city_pune', '02-woods_ville_pune', '03-air_castle_pune',
     '04-river_side_county', '05-kasara_hills_sheltrex', '06-ecopolis_alwar',
-    '07-woods_ville_ph-3_pune', '08-jodhpur_township', '09-golf_city_raipur',
+    '07-woods_ville_ph_pune', '08-jodhpur_township', '09-golf_city_raipur',
     '10-trainety_township'],
 
   _2: ['anzi_football_stadium,_makacha_kalla,_russia', 'football_stadium_arena_at_russia'],
@@ -74,4 +74,10 @@ export const numbers = [
 ];
 
 export const generic_names = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'];
-export const slidenames = ['01.EKANT.jpg', ' 02.ANZI FOOTBALL STADIUM RUSSIA.jpg', ' 03.CELESTIAL CITY.jpg', '04.walchand engineering college.JPG', ' 05.Peoples Mall Bhopal.jpg', '06.Woods Ville ', 'Pune.jpg', ' 07.KHAJURAHO CONVENTION CENTRE.jpg', '08.RAMA OFFICE.jpg', ' 09.HCC.jpg', ' 10.Moti Mahal architecture.jpg', '11.xpaxion pune.jpg', ' 12.HCC.jpg', ' 13.moti interior.jpg'];
+export const slidenames = ['01.Ekaant.jpg', ' 02.Anzi Football Stadium Russia.jpg', ' 03.Celestial City.jpg', '04.Walchand Engineering College.jpg', ' 05.Peoples Mall Bhopal.jpg', '06.Woods Ville,Pune.jpg', ' 07.Khajuraho Convention Centre.jpg', '08.Rama Office.jpg', ' 09.HCC.jpg', ' 10.Moti Mahal Architecture.jpg', '11.Xpaxion Pune.jpg', ' 12.HCC.jpg', ' 13.Moti Interior.jpg'];
+export const youtube = {
+  makhanlal_chaturvedi_university: 'Um8x27RU7pE',
+  air_castle_pune: 'OP7PkQUPitU',
+  woods_ville_ph_pune: 'MXulZHIreds',
+  delhi_public_school: 'orcnZ2WBzAc'
+};
