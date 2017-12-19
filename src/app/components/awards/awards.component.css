@@ -38,4 +38,17 @@ h1{
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+@media (max-width: 1023px) {
+  .pics{
+    position: fixed;
+  }
+  .left{
+    left: 0;
+  }
+  .right{
+    right: 0;
+  }
 }

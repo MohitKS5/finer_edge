@@ -9,6 +9,7 @@ import {Router} from '@angular/router';
 export class GalleryComponent implements OnInit {
   fakeit = [[2, 1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
   @Input() data;
+  active = 3;
 
   constructor(private router: Router) {
   }
@@ -18,6 +19,7 @@ export class GalleryComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.active = 3;
   }
 
 }

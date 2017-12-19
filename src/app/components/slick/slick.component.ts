@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {slidenames} from '../../config/projects';
 
 @Component({
   selector: 'app-slick',
@@ -12,6 +13,11 @@ export class SlickComponent implements OnInit {
   @Input() slides;
   @Input() slideConfig;
   @Input() dir;
+  names = slidenames;
+  beautify(str: string) {
+    return str.replace(/[-_.0-9]+/g, ' ').replace('jpg', '');
+  }
+
 
   ngOnInit() {
   }

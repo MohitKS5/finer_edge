@@ -1,13 +1,14 @@
 .slide{
   width: 100vw;
+  height: 90vh;
+  background-color: rgba(0,0,0,0.06);
+  filter: sepia(30%) saturate(120%) contrast(150%);
 }
 
 ._img{
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
   object-fit: contain;
-  background-color: rgba(0,0,0,0.06);
-  filter: sepia(30%) saturate(120%) contrast(150%);
 }
 
 .carousel{
@@ -19,4 +20,13 @@
   height: 90vh;
   display: block;
   overflow: hidden;
+}
+
+.projname{
+  font-size: 3rem;
+  background-color: transparent;
+  transform: translate(calc(50vw - 50%),0);
+  text-align: center;
+  font-family: badoniit;
+  text-transform: lowercase;
 }

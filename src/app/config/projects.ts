@@ -8,15 +8,15 @@ export const data = {
 
   _2: ['anzi_football_stadium,_makacha_kalla,_russia', 'football_stadium_arena_at_russia'],
 
-  _3: ['01.ekant_lavasa', '02.hotel_waterfront_shaw', '03.malwa_resort_mandu',
+  _3: ['01.ekaant_lavasa', '02.hotel_waterfront_shaw', '03.malwa_resort_mandu',
     '04.accor_formula_one', '05.classic_bar_dubai', '06.ujjain_resort',
     '07.khajuraho_convention_centre', '08.hotel_mohali', '09.hotel_matheran',
     '10.resort_at_makhachakala', '11.anzi_hotel_russia', '12.resort_at_kaspiysk_russia',
     '13.taj_resort_lavasa', '14.taj_mumbai_facade_restoration',
     '15.bouvice_hotel_bangalore', '16.woods_ville_hotel', '17.wind_&_waves_bhopal',
-    '18.peoples_mall_hotel', '19.american_diner', '20.country_club_lavasa',
-    '21.hindalco_hostel', '22.hotel_buddget', '23.hotel_gk_web', '24.restaurant_pune',
-    '25.holiday_hotel_lavasa', '26.service_apartment_-_lavasa'],
+    '18.peoples_mall_hotel', '19.american_diner',
+    '21.hindalco_hostel', '22.hotel_buddget', '23.hotel_gk', '24.restaurant_pune',
+    '25.holiday_resort_lavasa', '26.service_apartment_-_lavasa'],
 
   _4: ['02.mall_peoples_bhopal', '03.amusement_park_bhopal', '04.khialdas_mall_bhopal',
     '05.woods_ville-mall', '06.reliance_adlab_malegaon', '07.reliance_adlab_mathura',
@@ -64,7 +64,7 @@ export const numbers = [
   [7, 14, 7, 6, 1, 6, 8, 5, 4, 4, 1, 4],
   [12, 14, 11, 10, 10, 5, 8, 5, 8, 9, 10, 8, 9, 10, 9, 5, 9, 9, 7, 5, 3, 4, 7, 5, 6, 5, 5, 5, 5, 2, 2, 6],
   [1, 4],
-  [16, 9, 9, 9, 4, 3, 4, 1, 3, 3, 4, 2, 3, 1, 1, 1, 2, 1, 4, 3, 2, 3, 2, 2, 3, 3],
+  [16, 9, 9, 9, 4, 3, 4, 1, 3, 3, 4, 2, 3, 1, 1, 1, 2, 1, 4, 2, 3, 2, 2, 3, 3],
   [6, 3, 1, 1, 1, 3, 4, 4, 3],
   [10, 14, 5, 3, 11, 8, 4, 2, 1, 3, 3, 3, 5, 2],
   [21, 5, 2, 3, 2, 1, 2, 4, 2, 2, 3, 3, 2, 2, 2, 2],
@@ -74,3 +74,4 @@ export const numbers = [
 ];
 
 export const generic_names = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'];
+export const slidenames = ['01.EKANT.jpg', ' 02.ANZI FOOTBALL STADIUM RUSSIA.jpg', ' 03.CELESTIAL CITY.jpg', '04.walchand engineering college.JPG', ' 05.Peoples Mall Bhopal.jpg', '06.Woods Ville ', 'Pune.jpg', ' 07.KHAJURAHO CONVENTION CENTRE.jpg', '08.RAMA OFFICE.jpg', ' 09.HCC.jpg', ' 10.Moti Mahal architecture.jpg', '11.xpaxion pune.jpg', ' 12.HCC.jpg', ' 13.moti interior.jpg'];

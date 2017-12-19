@@ -40,6 +40,10 @@ span:focus, div:focus{
   outline: none;
 }
 
+.mat-ink-bar{
+  color: transparent;
+  background-color: transparent !important;
+}
 @media (max-width: 1023px) {
   html,body{
     font-size: 8px;

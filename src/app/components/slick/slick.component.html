@@ -1,7 +1,8 @@
 <div class="snipit">
   <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig">
-    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <div ngxSlickItem *ngFor="let slide of slides; let i = index" class="slide">
       <img defaultImage="/assets/loader.gif" [lazyLoad]="dir + slide + '.jpg'" class="_img">
+      <div class="projname">{{beautify(names[i])}}</div>
     </div>
   </ngx-slick>
 </div>
