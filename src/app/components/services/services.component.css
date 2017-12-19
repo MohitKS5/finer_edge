@@ -10,7 +10,7 @@
 .backg{
   z-index: -1;
   background-image: url("/assets/images/slides/13.jpg");
-  background-color: red;
+  background-color: white;
   filter: grayscale(50%);
   background-size: cover;
   position: fixed;

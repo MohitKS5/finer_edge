@@ -5,11 +5,11 @@
         <div class="imagewrapper">
           <div *ngIf="!_caption" [style.background-image]="'url('+dir + elementtoshow + ext+')'"
                [class.expand]="clickedelem === i + j * 3" class="hidden">
-            <div class="next" (click)="next()"><i class="fa fa-caret-right"></i></div>
-            <div class="prev" (click)="previous()"><i class="fa fa-caret-left"></i></div>
+            <div class="next" (click)="next()" *ngIf="+elementtoshow < len"><i class="fa fa-caret-right"></i></div>
+            <div class="prev" (click)="previous()" *ngIf="+elementtoshow > 1"><i class="fa fa-caret-left"></i></div>
             <div class="close" (click)="clickedelem = -1"><i class="fa fa-close"></i></div>
           </div>
-          <img defaultImage="/assets/loader.gif" [lazyLoad]="dir + subit + ext" #image (click)="clicked(i + j * 3, subit)">
+          <img [src]="dir + subit + ext" #image (click)="clicked(i + j * 3, subit)">
           <div *ngIf="_caption" class="label">{{beautify(subit).toUpperCase()}}</div>
         </div>
       </div>

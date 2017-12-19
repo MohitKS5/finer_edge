@@ -16,6 +16,7 @@ export class PhotosComponent implements OnInit {
   public tooless: boolean;
   public clickedelem: number;
   public elementtoshow: any;
+  public len = 10;
   @Output() elementClicked = new EventEmitter();
   public mobile = window.screen.width < 1023;
 
@@ -31,7 +32,7 @@ export class PhotosComponent implements OnInit {
 
   next() {
     this.elementtoshow = generic_names[+this.elementtoshow];
-    console.log(this.elementtoshow);
+    console.log(this.len, this.clickedelem);
   }
 
   previous() {
@@ -46,6 +47,7 @@ export class PhotosComponent implements OnInit {
     this.finalData = [[], [], []];
     let subdir = this._array;
     let len = subdir.length;
+    this.len = len;
     this.tooless = len < 3;
     this.div = Math.round(len / 3);
     for (let i = 0; i < len; i++) {
