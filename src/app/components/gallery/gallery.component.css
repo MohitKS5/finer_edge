@@ -1,15 +1,18 @@
 .img {
-  width: 24.7vw;
-  z-index: 1;
+  width: 33vw;
 }
 
-.img:hover{
+.img:hover img {
   filter: brightness(130%);
   cursor: pointer;
 }
 
-.img img {
+.img img, iframe {
   width: 100%;
+}
+
+iframe {
+  height: 40vh;
 }
 
 .fixit {
@@ -19,14 +22,31 @@
 }
 
 .my-container {
-  height: 85vh;
+  min-height: 85vh;
+  position: relative;
 }
 
-.widen .img{
-  width: 20vw;
+.imagewrapper {
+  position: relative;
 }
 
-.pseudo{
-  height: 5vh;
+.imagewrapper .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  height: 3vh;
+  padding: 0.5vh;
+  font-weight: 900;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 1.5rem;
+  background-color: transparent;
+  transition: all 0.5s ease-out;
+}
+
+.imagewrapper:hover .label {
+  background-color: white;
+  text-shadow: none;
+  color: #000;
 }

@@ -1,5 +1,6 @@
 import {Component, OnInit, Input} from '@angular/core';
 import {Router} from '@angular/router';
+import {a, data} from '../../config/projects';
 
 @Component({
   selector: 'app-gallery',
@@ -9,7 +10,7 @@ import {Router} from '@angular/router';
 export class GalleryComponent implements OnInit {
   fakeit = [[2, 1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
   @Input() data;
-  active = 3;
+  final_array;
 
   constructor(private router: Router) {
   }
@@ -18,16 +19,20 @@ export class GalleryComponent implements OnInit {
     this.router.navigate(['/projects', i.index]);
   }
 
-  go(i){
+  go(i) {
     this.router.navigate(['/projects', i]);
   }
 
-  logger(i) {
-    console.log(i);
+  splitArray() {
+    this.final_array = [[], [], []];
+    for (let i = 0; i < 10; i++) {
+      this.final_array[i % 3].push(a[i] + '/' + data['_' + i][0] + '/01.jpg');
+    }
+    return this.final_array;
   }
 
   ngOnInit() {
-    this.active = 3;
+    this.splitArray();
+    console.log(this.final_array);
   }
-
 }
