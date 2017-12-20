@@ -2,6 +2,7 @@
   font-family: swiss-ex-bt;
   src: url("/assets/font/swiss-ex-bt.ttf");
 }
+
 .slide {
   width: 100vw;
   height: 90vh;
@@ -34,9 +35,14 @@
   font-family: swiss-ex-bt;
 }
 
+.snipit:hover .arrow {
+  display: block;
+}
+
 .arrow {
+  display: none;
   font-size: 5vh;
-  color: #999;
+  color: #fff;
   text-shadow: 2px 2px black;
   position: fixed;
   top: 0;
