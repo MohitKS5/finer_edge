@@ -1,31 +1,54 @@
-.slide{
+@font-face {
+  font-family: swiss-ex-bt;
+  src: url("/assets/font/swiss-ex-bt.ttf");
+}
+.slide {
   width: 100vw;
   height: 90vh;
-  background-color: rgba(0,0,0,0.06);
+  background-color: rgba(0, 0, 0, 0.06);
   filter: sepia(30%) saturate(120%) contrast(150%);
 }
 
-._img{
+._img {
   width: 100vw;
   height: 85vh;
   object-fit: contain;
 }
 
-.carousel{
+.carousel {
   width: 100vw;
   height: 90vh;
 }
 
-.snipit{
+.snipit {
   height: 90vh;
   display: block;
   overflow: hidden;
 }
 
-.projname{
+.projname {
   font-size: 3rem;
   background-color: transparent;
-  transform: translate(calc(50vw - 50%),0);
+  transform: translate(calc(50vw - 50%), 0);
   text-align: center;
-  font-family: badoniit;
+  font-family: swiss-ex-bt;
+}
+
+.arrow {
+  font-size: 5vh;
+  color: #999;
+  text-shadow: 2px 2px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 20px;
+}
+
+.next {
+  transform: translate(calc(100vw - 300%), 50vh);
+  float: left;
+}
+
+.prev {
+  transform: translateY(50vh);
 }

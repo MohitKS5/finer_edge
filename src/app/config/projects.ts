@@ -74,7 +74,7 @@ export const numbers = [
 ];
 
 export const generic_names = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'];
-export const slidenames = ['01.Ekaant.jpg', ' 02.Anzi Football Stadium Russia.jpg', ' 03.Celestial City.jpg', '04.Walchand Engineering College.jpg', ' 05.Peoples Mall Bhopal.jpg', '06.Woods Ville,Pune.jpg', ' 07.Khajuraho Convention Centre.jpg', '08.Rama Office.jpg', ' 09.HCC.jpg', ' 10.Moti Mahal Architecture.jpg', '11.Xpaxion Pune.jpg', ' 12.HCC.jpg', ' 13.Moti Interior.jpg'];
+export const slidenames = ['01.Ekaant Lavasa.jpg', ' 02.Anzi Football Stadium Russia.jpg', ' 03.Celestial City Township, Pune.jpg', '04.Walchand Engineering College.jpg', ' 05.Peoples Mall Bhopal.jpg', '06.Woods Ville,Pune.jpg', ' 07.Khajuraho Convention Centre.jpg', '08.Rama Office.jpg', ' 09.HCC Experience Center.jpg', ' 10.Moti Mahal Bungalow.jpg', '11.Xpaxion Pune.jpg', ' 12.HCC Corporate Office.jpg', ' 13.Moti Residence Interior.jpg'];
 export const youtube = {
   makhanlal_chaturvedi_university: 'Um8x27RU7pE',
   air_castle_pune: 'OP7PkQUPitU',
