@@ -56,11 +56,12 @@ export class PhotosComponent implements OnInit {
     let subdir = this._array;
     let len = subdir.length;
     this.len = len;
-    this.tooless = len < 3;
+    this.tooless = len < 5;
     this.div = Math.round(len / 3);
     let add = this.id ? 1 : 0;
+    let cols = this.tooless ? 2 : 3;
     for (let i = 0; i < len; i++) {
-      this.finalData[(i + add) % 3].push(subdir[i]);
+      this.finalData[(i + add) % cols].push(subdir[i]);
     }
     return this.finalData;
   }

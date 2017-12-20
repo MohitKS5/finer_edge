@@ -1,5 +1,5 @@
 .banner{
-  background: black url("/assets/images/awards/08.jpg");
+  background: black url("/assets/images/team.jpg");
   background-position: center;
   filter: brightness(120%) sepia(60%) contrast(120%);
   background-size: cover;
@@ -76,5 +76,11 @@ input{
 @media (max-width: 1023px) {
   .contact, .info{
     width: 80vw;
+  }
+
+  .submit{
+    height: 30px;
+    padding: 5px;
+    text-transform: lowercase;
   }
 }
