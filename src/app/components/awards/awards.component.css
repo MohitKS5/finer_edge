@@ -4,11 +4,15 @@
 }
 
 .def .pics{
-  width: 25vw;
+  width: 24vw;
 }
 
-img{
+img, iframe{
   width: 100%;
+}
+
+iframe{
+  height: 40vh;
 }
 
 .def ._text{
