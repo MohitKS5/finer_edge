@@ -1,6 +1,6 @@
 export const about = [
   `
-      FINER EDGE was founded by Arch. Vivek Kishore in the year 2004 with a commitment to provide the best possible design services in Architecture, Interiors and Master Planning.
+      FINER EDGE was founded by Ar. Vivek Kishore in the year 2004 with a commitment to provide the best possible design services in Architecture, Interiors and Master Planning.
       
       Ar. Vivek Kishore has an overall experience of 25 years in Architecture & Interior field.
       
@@ -40,12 +40,15 @@ export const services = [
   {
     name: 'Architecture',
     content: `
-  The approach is to first understand how each client organization needs (or wants) to work. By focusing first on the people
-  and their activities and creating a building that will support those activities, clients are provided with a space, a design
-  and a building shape that best suits their objectives and corporate image. This holistic approach integrates design, engineering
-   and construction disciplines into a single team, and aligns each stage of design and construction with the final goals of the project.
-
-  By taking the role of Lead Consultant for the project team,`,
+  The approach is to first understand how each client organization needs (or wants) to work. 
+  By focusing first on the people and their activities and creating a building that will support
+  those activities, clients are provided with a space, a design and a building shape that best suits 
+  their objectives and corporate image. This holistic approach integrates design, engineering and construction
+  disciplines into a single team, and aligns each stage of design and construction with the final goals of the project.
+  By taking the role of Lead Consultant for the project team, We ensure that this approach will achieve...
+  Time and Cost savings as well as High quality in delivery while creating a Strong corporate image and
+  Spatial flexibility and modularity for future expansion and re-adaptation By taking the role of Lead Consultant
+  for the project team,`,
     blocks: [
       {name: 'Time', pic: 'fa fa-calendar-check-o'},
       {name: 'Cost savings', pic: 'fa fa-dollar'},
@@ -71,8 +74,7 @@ At FINER EDGE, our designs do more than provide our Client's with a beautiful wo
   {
     name: 'Urban Planning',
     content: `FINER EDGE believes that the need of the hour is sustainable development. With increasing population and growing pollution, 
-    we can’t ignore the ill effects of planning on the environment.
-    
+    we can’t ignore the ill effects of planning on the environment.<br><br>
     Thus, our urban planning takes care of the following:
   - Utilizing the present resources keeping in mind the future needs of the society, so as not to exhaust the resources.
   - It should not disturb the ecological cycle and hence preserve the environment.`,

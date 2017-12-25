@@ -7,12 +7,12 @@
 </mat-tab-group>
 <router-outlet></router-outlet>
 
-<div class="my-container" fxLayout="row" fxLayoutWrap fxLayoutAlign="start start">
-  <div fxLayout="column" fxLayoutAlign="center center" class="columns" *ngFor="let it of splitArray(); let i = index">
+<div *ngIf="this.router.url.split('/').slice(-1)[0] === 'projects'" class="my-container" fxLayout="row" fxLayoutWrap fxLayoutAlign="space-around ">
+  <div fxLayout="column" fxLayoutAlign="space-between space-between" class="columns" *ngFor="let it of splitArray(); let i = index">
     <div *ngFor="let subit of it; let j = index" class="img">
       <div class="imagewrapper">
-        <img [src]="'/assets/projects/'+subit" #image [routerLink]="i + j * 3">
-        <div class="label">{{data[i + j * 3]}}</div>
+        <img [src]="'/assets/projects/'+subit" #image [routerLink]="arrange[i + j * 3]">
+        <div class="label">{{data[arrange[i + j * 3]]}}</div>
       </div>
     </div>
   </div>

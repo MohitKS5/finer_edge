@@ -22,12 +22,15 @@ iframe {
 }
 
 .my-container {
-  min-height: 85vh;
+  min-height: 90vh;
   position: relative;
 }
 
 .imagewrapper {
   position: relative;
+  min-height: 100px;
+  background:#eee url("/assets/loader.gif") no-repeat;
+  background-size: contain;
 }
 
 .imagewrapper .label {

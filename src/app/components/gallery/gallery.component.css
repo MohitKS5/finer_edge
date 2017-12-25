@@ -1,5 +1,9 @@
 .img {
-  width: 33vw;
+  width: 23.8vw;
+}
+
+.columns {
+  height: 85vh;
 }
 
 .img:hover img {
@@ -22,8 +26,10 @@ iframe {
 }
 
 .my-container {
-  min-height: 85vh;
-  position: relative;
+  height: 85vh;
+  width: 80vw;
+  margin-left: 10vw;
+  position: rel ative;
 }
 
 .imagewrapper {
@@ -49,4 +55,8 @@ iframe {
   background-color: white;
   text-shadow: none;
   color: #000;
+}
+
+.hidden {
+  display: none;
 }

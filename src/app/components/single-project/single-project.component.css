@@ -1,0 +1,28 @@
+h1{
+  text-transform: uppercase;
+}
+
+h1{
+  color: #666;
+  text-align: center;
+}
+
+span{
+  float: left;
+  position: absolute;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #aaa;
+  cursor: pointer;
+  padding: .5rem 10px;
+}
+
+span:hover{
+  color: #666;
+}
+
+i{
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 1rem 10px;
+}

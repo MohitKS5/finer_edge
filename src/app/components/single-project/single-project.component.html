@@ -1,3 +1,5 @@
+<span [routerLink]="'/projects/'+cap[0][1]"><i class="fa fa-caret-left"> </i> Back to {{beautify(cap[0])}}</span>
+<h1>{{beautify(cap[1])}}</h1>
 <app-photos [dir]="dir"
             [_array]="names.slice(0,populate())"
             [_caption]="false"

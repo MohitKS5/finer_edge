@@ -8,11 +8,12 @@ import {a, data} from '../../config/projects';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
-  fakeit = [[2, 1, 3, 1], [1, 4, 3, 1], [4, 3, 1]];
   @Input() data;
   final_array;
+  arrange = [0,7, 6, 4, 3, 5, 2, 8, 9, 1];
 
-  constructor(private router: Router) {
+
+  constructor(public router: Router) {
   }
 
   onSelect(i) {
@@ -24,15 +25,14 @@ export class GalleryComponent implements OnInit {
   }
 
   splitArray() {
-    this.final_array = [[], [], []];
-    for (let i = 0; i < 10; i++) {
-      this.final_array[i % 3].push(a[i] + '/' + data['_' + i][0] + '/01.jpg');
+    this.final_array = [[a[0] + '/' + data['_0'][0] + '/01.jpg'], [], []];
+    for (let i = 1; i < 10; i++) {
+      this.final_array[i % 3].push(a[this.arrange[i]] + '/' + data['_' + this.arrange[i]][0] + '/01.jpg');
     }
     return this.final_array;
   }
 
   ngOnInit() {
     this.splitArray();
-    console.log(this.final_array);
   }
 }

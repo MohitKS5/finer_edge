@@ -10,7 +10,7 @@
             <div class="close" (click)="clickedelem = -1"><i class="fa fa-close"></i></div>
           </div>
           <div *ngIf="i===0 && j===0 && id && !_caption">
-            <img  *ngIf="!showiframe" src="/assets/play2.jpg" class="dummy" (click)="showiframe = true">
+            <img *ngIf="!showiframe" src="/assets/play2.jpg" class="dummy" (click)="showiframe = true">
             <iframe *ngIf="showiframe" [src]="sanitize()" frameborder="0" allowfullscreen></iframe>
           </div>
           <img [src]="dir + subit + ext" #image (click)="clicked(i + j * 3, subit)">

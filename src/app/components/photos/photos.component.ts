@@ -48,7 +48,11 @@ export class PhotosComponent implements OnInit {
   }
 
   beautify(text) {
-    return text.replace(/[-_.0-9]+/g, ' ');
+    if (text === '11.247_park_food_court') {
+      return '247 park food court';
+    } else {
+      return text.replace(/[-_.0-9]+/g, ' ');
+    }
   }
 
   splitArray() {
