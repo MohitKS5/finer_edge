@@ -1,7 +1,7 @@
 <h1>Our Clients</h1>
 <div fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap>
-  <figure class="images" *ngFor="let client of clients">
+  <figure class="images" *ngFor="let client of clients; let i = index">
     <img defaultImage="/assets/loader.gif" [lazyLoad]="'/assets/clients/' + client">
-    <figcaption [innerHTML]="beautify(client)"></figcaption>
+    <figcaption [innerHTML]="beautify(client)" *ngIf="i===7 || i=== 9"></figcaption>
   </figure>
 </div>

@@ -10,7 +10,7 @@ import {a, data} from '../../config/projects';
 export class GalleryComponent implements OnInit {
   @Input() data;
   final_array;
-  arrange = [0,7, 6, 4, 3, 5, 2, 8, 9, 1];
+  arrange = [0,7, 6, 1, 3, 5, 2, 8, 9, 4];
 
 
   constructor(public router: Router) {
