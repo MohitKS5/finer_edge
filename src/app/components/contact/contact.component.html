@@ -2,22 +2,22 @@
   <div class="banner" fxLayoutAlign="center center">
     Contact Us
   </div>
-  <div [fxLayout]="mobile?'column':'row'" fxLayoutAlign="space-between top" class="content" fxLayoutGap="3vw">
+  <div [fxLayout]="mobile?'column':'row'" fxLayoutAlign="space-around top" class="content" fxLayoutGap="3vw">
     <div class="contact">
       <span class="findus">Contact Us</span>
       <div markdown-to-html [innerHTML]="data.address" class="address"></div>
     </div>
-    <div class="forms">
-      <form action="https://formspree.io/mohitkumarsingh907@gmail.com" method="POST" fxLayout="column">
-        <span>name</span>
-        <input type="text" name="name" class="name">
-        <span>email address</span>
-        <input type="email" name="email_address">
-        <span>message</span>
-        <textarea type="text" name="message" class="textarea"></textarea>
-        <input type="submit" value="Send" class="submit">
-      </form>
-    </div>
+    <!--<div class="forms">-->
+      <!--<form action="https://formspree.io/mohitkumarsingh907@gmail.com" method="POST" fxLayout="column">-->
+        <!--<span>name</span>-->
+        <!--<input type="text" name="name" class="name">-->
+        <!--<span>email address</span>-->
+        <!--<input type="email" name="email_address">-->
+        <!--<span>message</span>-->
+        <!--<textarea type="text" name="message" class="textarea"></textarea>-->
+        <!--<input type="submit" value="Send" class="submit">-->
+      <!--</form>-->
+    <!--</div>-->
     <div class="info" markdown-to-html [innerHTML]="data.info"></div>
   </div>
 </section>

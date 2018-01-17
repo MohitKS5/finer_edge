@@ -3,7 +3,7 @@ export const a = ['00.residential_township', '01.interiors', '02.stadium', '03.h
 export const data = {
   _0: ['01-celestial_city_pune', '02-woods_ville_pune', '03-air_castle_pune',
     '04-river_side_county', '05-kasara_hills_sheltrex', '06-ecopolis_alwar',
-    '07-woods_ville_ph_pune', '08-jodhpur_township', '09-golf_city_raipur',
+    '07-woods_ville_phase_III,_pune', '08-jodhpur_township', '09-golf_city_raipur',
     '10-trainety_township'],
 
   _2: ['anzi_football_stadium,_makacha_kalla,_russia', 'football_stadium_arena_at_russia'],

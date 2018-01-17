@@ -10,8 +10,8 @@ import {a, data} from '../../config/projects';
 export class GalleryComponent implements OnInit {
   @Input() data;
   final_array;
-  arrange = [0,7, 6, 1, 3, 5, 2, 8, 9, 4];
-
+  arrange = [0, 5, 6, 1, 3, 7, 2, 8, 9, 4];
+  mobile = window.screen.width < 1023;
 
   constructor(public router: Router) {
   }
@@ -26,8 +26,9 @@ export class GalleryComponent implements OnInit {
 
   splitArray() {
     this.final_array = [[a[0] + '/' + data['_0'][0] + '/01.jpg'], [], []];
+    const div = this.mobile ? 2 : 3;
     for (let i = 1; i < 10; i++) {
-      this.final_array[i % 3].push(a[this.arrange[i]] + '/' + data['_' + this.arrange[i]][0] + '/01.jpg');
+      this.final_array[i % div].push(a[this.arrange[i]] + '/' + data['_' + this.arrange[i]][0] + '/01.jpg');
     }
     return this.final_array;
   }
