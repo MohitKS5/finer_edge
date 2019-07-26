@@ -31,9 +31,10 @@ export const about = [
     - Won International Design Competition to design Anzi Football Stadium, Russia.
     - Won National Design Competition to design Makhanlal University of Journalism, Bhopal
     - Won International Design Competition to design Presidential Resort at Russia.
-    - Completed ‘_______’ projects in past 13 years.
-    - Projects worth around ___________crores completed
-    - Projects worth around ___________ crores ongoing.
+    - Completed more than **130 projects** in past 13 years.
+    - Projects worth around **Rs 3000 crores** completed and ongoing.
+    -	Featured in **Architect & Interiors India- Hot 100** Architects of India.
+    -	Featured in **Architectural Builders & Magazine – Fab 50 ** Architects of India
     - Numerous awards and media mentions as detailed in awards section.`,
   `We provide services for Architecture, Interior, Urban Planning & Sustainable projects. `];
 export const services = [

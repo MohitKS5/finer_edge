@@ -40,7 +40,7 @@ export const data = {
     '06.wadhwa-mazgaon_sales_office', '07.nerolac_rnd_center_mumbai', '08.hcc_badarpur',
     '09.champali_garden', '10.rama_office', '11._hcc_faridabad',
     '12.jay_vijay_complex_mumbai', '13.hcc_dhule_toll_plaza', '14.gvk_experience_centre',
-    '15.bank_of_baroda-_ahmedabad', '16.bank_of_india-lucnow'],
+    '15.bank_of_baroda-_ahmedabad', '16.bank_of_india-lucnow', '17.bhopal_aquarium'],
 
   _8: ['01.peoples_super_speciality_hospital', '02.raipur_hospital',
     '03.datia_medical_college', '04.mohali_hospital', '05.hamidia_bhopal'],
@@ -57,17 +57,17 @@ export const data = {
     '21.toyota', '22.hcc_badarpur', '23.kotak_bhaktawar_nariman_point', '24.gm_motors',
     '25.highbar', '26.citi_bank_guest_house', '27.steiner', '28.town_hall_lavasa',
     '29.star_news', '30.hotel_palash_bhopal', '31.hotel_restaurant_bristo_bar_pune',
-    '32.kotak_vbc_mumbai']
+    '32.kotak_vbc_mumbai', '33.vector_office']
 };
 
 export const numbers = [
   [7, 14, 7, 6, 11, 6, 8, 5, 4, 4, 1, 4],
-  [12, 14, 11, 10, 10, 15, 8, 5, 8, 9, 10, 8, 9, 10, 9, 5, 9, 9, 7, 5, 3, 4, 7, 5, 6, 5, 5, 5, 5, 2, 2, 6],
+  [12, 14, 11, 10, 10, 15, 8, 5, 8, 9, 10, 8, 9, 10, 9, 5, 9, 9, 7, 5, 3, 4, 7, 5, 6, 5, 5, 5, 5, 2, 2, 6, 8], // changed
   [1, 4],
-  [16, 9, 9, 9, 4, 3, 4, 1, 3, 3, 4, 2, 3, 1, 1, 1, 2, 1, 4, 2, 3, 2, 2, 3, 3],
+  [16, 9, 9, 9, 4, 3, 11, 1, 3, 3, 4, 2, 3, 1, 1, 1, 2, 1, 4, 2, 3, 2, 2, 3, 3],
   [6, 11, 3, 1, 1, 1, 3, 4, 4, 3],
   [10, 14, 5, 3, 11, 8, 4, 2, 1, 3, 3, 3, 5, 2],
-  [21, 5, 2, 3, 2, 1, 2, 4, 2, 2, 3, 3, 2, 2, 2, 2],
+  [21, 5, 2, 3, 2, 1, 2, 4, 2, 2, 3, 3, 2, 2, 2, 2, 3], // changed
   [5, 4, 4, 3, 2, 2, 1, 4, 6, 3, 1, 1, 2, 2, 4, 4],
   [1, 1, 2, 1, 6],
   [5, 2, 6, 3]
